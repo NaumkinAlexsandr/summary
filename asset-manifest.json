@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/summary/static/css/main.afb966ae.css",
+    "main.js": "/summary/static/js/main.dd3078a9.js",
+    "static/media/fone.jpg": "/summary/static/media/fone.a1beb92cdf018abde13c.jpg",
+    "index.html": "/summary/index.html",
+    "main.afb966ae.css.map": "/summary/static/css/main.afb966ae.css.map",
+    "main.dd3078a9.js.map": "/summary/static/js/main.dd3078a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afb966ae.css",
+    "static/js/main.dd3078a9.js"
+  ]
+}

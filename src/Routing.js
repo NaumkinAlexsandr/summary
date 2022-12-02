@@ -9,9 +9,9 @@ function Routing() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<English />}></Route>
-        <Route path="/apps" element={<Ukrainian />} />
-        <Route path="/tasks" element={<Russian />} />
+        <Route path="/summary" element={<English />}></Route>
+        <Route path="/summary/ua" element={<Ukrainian />} />
+        <Route path="/summary/ru" element={<Russian />} />
         <Route path="*" element={<NofoundPage />} />
       </Routes>
     </BrowserRouter>

@@ -1,5 +1,9 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import { FaTelegram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { SiGmail } from "@react-icons/all-files/si/SiGmail";
 
 const Sotial = () => {
   return (
@@ -10,7 +14,7 @@ const Sotial = () => {
           className="telegram"
           href="https://web.telegram.org/k/#@NaumkinAleksander"
         >
-          <i className="fa-brands fa-telegram"></i>
+          <FaTelegram className="socialIcon" />
         </a>
       </div>
       <div className="icon">
@@ -19,7 +23,7 @@ const Sotial = () => {
           className="google"
           href="mailto:naumkin93@gmail.com"
         >
-          <i className="fa-brands fa-google"></i>
+          <SiGmail className="socialIcon" />
         </a>
       </div>
       <div className="icon">
@@ -28,7 +32,7 @@ const Sotial = () => {
           className="git"
           href="https://github.com/NaumkinAlexsandr"
         >
-          <i className="fa-brands fa-github"></i>
+          <FaGithub className="socialIcon" />
         </a>
       </div>
       <div className="icon">
@@ -37,7 +41,7 @@ const Sotial = () => {
           className="linkedin"
           href="https://www.linkedin.com/in/alexsander-naumkin-3a7591240/"
         >
-          <i className="fa-brands fa-linkedin"></i>
+          <FaLinkedinIn className="socialIcon" />
         </a>
       </div>
     </Container>

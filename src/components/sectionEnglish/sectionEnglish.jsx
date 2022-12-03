@@ -21,11 +21,13 @@ function SectionEnglish() {
       <HardSkill
         objective="Carrer objective"
         look="Looking for a full time job as a Junior Front-end Developer."
-        hardSkill="Hard Skill:"
+        hardSkill="Hard skills:"
         first="HTML5, CSS3, SASS"
         second="JS, REACT, REDUX"
         third="Git"
         fourth="Figma"
+        fifth="Bootstrap"
+        sixth="Webpack"
       />
       <Education
         education="Education:"
@@ -44,7 +46,7 @@ function SectionEnglish() {
         third="From 09.04.2016 to 30.06.2018, worked at Crytex Service in department of Kimberly-Clark, with key clients."
       />
       <SoftSkill
-        softSkill="Soft skill:"
+        softSkill="Soft skills:"
         first="fast learner"
         second="a responsibility"
         third="purposefulness"

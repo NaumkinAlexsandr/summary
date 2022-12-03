@@ -1,10 +1,12 @@
 import React from "react";
-// import { HeaderEmpty } from "../core/headerEmpty/HeaderEmpty";
-// import { HeaderLine } from "../core/headerLine/HeaderLine";
-// import { FormApps } from "../components/apps/FormApps";
+import { SectionUkrainian } from "../components/sectionUkrainian/SectionUkrainian";
 
 function Ukrainian() {
-  return <></>;
+  return (
+    <>
+      <SectionUkrainian />
+    </>
+  );
 }
 
 export { Ukrainian };

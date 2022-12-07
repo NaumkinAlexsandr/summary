@@ -2,7 +2,7 @@ import React from "react";
 import { HeaderRU } from "../header/HeaderRU";
 import { PersonalInfo } from "../personalInfo/PersonalInfo";
 import { HardSkill } from "../hardSkill/HardSkill";
-import { Education } from "../education/Education";
+import { EducationRU } from "../education/EducationRU";
 import { Experience } from "../experience/Experience";
 import { SoftSkill } from "../softSkill/SoftSkill";
 import { OtherInfo } from "../otherInfo/OtherInfo";
@@ -29,7 +29,7 @@ function SectionRussian() {
         fifth="Bootstrap"
         sixth="Webpack"
       />
-      <Education
+      <EducationRU
         education="Образование:"
         university="2003 - 2008 Одесский Государственный Экономический Университет, факультет международной экономики, специальность – маркетолог (магистр).."
         additional="Дополнительное образование:"

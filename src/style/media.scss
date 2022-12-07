@@ -4,12 +4,22 @@
   }
 
   .photoTwo {
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/photo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
   }
 }
 @media screen and (max-width: 576px) {
   .photoOne {
-    margin-bottom: 10px;
+    width: 100%;
+    height: 230px;
+    background-image: url(../img/photo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 0 10px 10px;
     display: flex;
   }
 

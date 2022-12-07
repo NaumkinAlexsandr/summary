@@ -2,7 +2,7 @@ import React from "react";
 import { Header } from "../header/Header";
 import { PersonalInfo } from "../personalInfo/PersonalInfo";
 import { HardSkill } from "../hardSkill/HardSkill";
-import { Education } from "../education/Education";
+import { EducationEN } from "../education/EducationEN";
 import { Experience } from "../experience/Experience";
 import { SoftSkill } from "../softSkill/SoftSkill";
 import { OtherInfo } from "../otherInfo/OtherInfo";
@@ -29,7 +29,7 @@ function SectionEnglish() {
         fifth="Bootstrap"
         sixth="Webpack"
       />
-      <Education
+      <EducationEN
         education="Education:"
         university="2003 - 2008 Odessa State Economic University, Faculty of International Economics, specialty – marketer (master)."
         additional="Additional education:"

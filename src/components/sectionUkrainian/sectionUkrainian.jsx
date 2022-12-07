@@ -2,7 +2,7 @@ import React from "react";
 import { HeaderUA } from "../header/HeaderUA";
 import { PersonalInfo } from "../personalInfo/PersonalInfo";
 import { HardSkill } from "../hardSkill/HardSkill";
-import { Education } from "../education/Education";
+import { EducationUA } from "../education/EducationUA";
 import { Experience } from "../experience/Experience";
 import { SoftSkill } from "../softSkill/SoftSkill";
 import { OtherInfo } from "../otherInfo/OtherInfo";
@@ -29,7 +29,7 @@ function SectionUkrainian() {
         fifth="Bootstrap"
         sixth="Webpack"
       />
-      <Education
+      <EducationUA
         education="Освіта:"
         university="2003 - 2008 Одеський Державний Економічний Університет, факультет міжнародної економіки, спеціальність – маркетолог (магістр)."
         additional="Додаткова освіта:"

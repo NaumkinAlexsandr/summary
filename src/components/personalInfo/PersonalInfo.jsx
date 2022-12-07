@@ -8,9 +8,7 @@ const PersonalInfo = ({ name, title, date, city, phone }) => {
   return (
     <div id="personalInfo" className="container-fluid">
       <div className="row">
-        <div className="col-sm-6 photoOne">
-          <Image src="https://i.postimg.cc/C1v2HYFB/IMG-4252.jpg" />
-        </div>
+        <div className="col-sm-6 photoOne"></div>
         <div className="col-sm-6">
           <h2>{name}</h2>
           <h3>{title}</h3>
@@ -26,9 +24,7 @@ const PersonalInfo = ({ name, title, date, city, phone }) => {
           </>
           <Sotial />
         </div>
-        <div className="col-sm-6 photoTwo">
-          <Image src="https://i.postimg.cc/C1v2HYFB/IMG-4252.jpg" />
-        </div>
+        <div className="col-sm-6 photoTwo"></div>
       </div>
     </div>
   );

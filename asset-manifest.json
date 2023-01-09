@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/summary/static/css/main.184c0cd8.css",
-    "main.js": "/summary/static/js/main.f0f86133.js",
+    "main.css": "/summary/static/css/main.db078729.css",
+    "main.js": "/summary/static/js/main.cd5c70e5.js",
     "static/media/photo.jpg": "/summary/static/media/photo.7901a95511f299fe97d6.jpg",
     "static/media/basic.png": "/summary/static/media/basic.91b85a1044cc68f9da9f.png",
+    "static/media/NaumkinPro.png": "/summary/static/media/NaumkinPro.0a895331e6c7ea2c81f8.png",
     "static/media/recBasicRu.png": "/summary/static/media/recBasicRu.87c8acfb4b0fb9eafc33.png",
+    "static/media/recProRu.png": "/summary/static/media/recProRu.e2b0088160e4fd515f2a.png",
+    "static/media/recProUa.png": "/summary/static/media/recProUa.123347164732bdbf6f1c.png",
     "static/media/recBasicUa.png": "/summary/static/media/recBasicUa.31ce0e7aff6131de8d58.png",
     "static/media/recBasicEn.png": "/summary/static/media/recBasicEn.1d21807fcbccb45cc867.png",
+    "static/media/recProEn.png": "/summary/static/media/recProEn.72c1ecdece199ad5a2ec.png",
     "static/media/background.jpg": "/summary/static/media/background.a1beb92cdf018abde13c.jpg",
     "index.html": "/summary/index.html",
-    "main.184c0cd8.css.map": "/summary/static/css/main.184c0cd8.css.map",
-    "main.f0f86133.js.map": "/summary/static/js/main.f0f86133.js.map"
+    "main.db078729.css.map": "/summary/static/css/main.db078729.css.map",
+    "main.cd5c70e5.js.map": "/summary/static/js/main.cd5c70e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.184c0cd8.css",
-    "static/js/main.f0f86133.js"
+    "static/css/main.db078729.css",
+    "static/js/main.cd5c70e5.js"
   ]
 }

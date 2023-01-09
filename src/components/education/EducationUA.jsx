@@ -24,12 +24,12 @@ const EducationUA = ({
               certificate="Сертифікат"
               title="Сертифікат випускника"
               href="https://certificate.ithillel.ua/view/34550382"
-              className="certificate"
+              className="certificateBasic"
             />
             <Example
               certificate="Рекомендація"
               title="Рекомендація"
-              className="recommendation ua"
+              className="recommendation uaBasic"
             />
           </li>
           <li>
@@ -37,13 +37,13 @@ const EducationUA = ({
             <Example
               certificate="Сертифікат"
               title="Сертифікат випускника"
-              href="https://certificate.ithillel.ua/view/34550382"
-              className="certificate"
+              href="https://certificate.ithillel.ua/view/50761145"
+              className="certificatePro"
             />
             <Example
               certificate="Рекомендація"
               title="Рекомендація"
-              className="recommendation"
+              className="recommendation uaPro"
             />
           </li>
           <li>

@@ -144,21 +144,22 @@ body {
   }
 }
 
-.img {
-  width: 400px;
-  height: 400px;
-  background-image: url(../img/basic.png);
-  background-size: contain;
-}
-
 .modal-body.row {
   height: 50%;
 }
 
-.certificate {
+.certificateBasic {
   height: 100%;
   width: 100%;
   background-image: url(../img/basic.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.certificatePro {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/NaumkinPro.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -170,14 +171,26 @@ body {
   background-repeat: no-repeat;
 }
 
-.recommendation.en {
+.recommendation.enBasic {
   background-image: url(../img/recBasicEn.png);
 }
 
-.recommendation.ua {
+.recommendation.uaBasic {
   background-image: url(../img/recBasicUa.png);
 }
 
-.recommendation.ru {
+.recommendation.ruBasic {
   background-image: url(../img/recBasicRu.png);
+}
+
+.recommendation.enPro {
+  background-image: url(../img/recProEn.png);
+}
+
+.recommendation.uaPro {
+  background-image: url(../img/recProUa.png);
+}
+
+.recommendation.ruPro {
+  background-image: url(../img/recProRu.png);
 }

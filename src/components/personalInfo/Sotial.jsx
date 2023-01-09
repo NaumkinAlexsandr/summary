@@ -12,7 +12,7 @@ const Sotial = () => {
         <a
           target="_blanck"
           className="telegram"
-          href="https://web.telegram.org/k/#@NaumkinAleksander"
+          href="https://t.me/NaumkinAleksander"
         >
           <FaTelegram className="socialIcon" />
         </a>

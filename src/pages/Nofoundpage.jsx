@@ -7,7 +7,7 @@ function NofoundPage() {
     <div>
       <div className="container">
         <h1>
-          Page not found <Link to="/diploma/">Go Home</Link>
+          Page not found <Link to="/summary/">Go Home</Link>
         </h1>
       </div>
     </div>

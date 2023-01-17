@@ -1,5 +1,5 @@
 import React from "react";
-import { Header } from "../header/Header";
+import { HeaderSummaryEN } from "../headers/HeaderSummaryEN";
 import { PersonalInfo } from "../personalInfo/PersonalInfo";
 import { HardSkill } from "../hardSkill/HardSkill";
 import { EducationEN } from "../education/EducationEN";
@@ -10,7 +10,7 @@ import { OtherInfo } from "../otherInfo/OtherInfo";
 function SectionEnglish() {
   return (
     <>
-      <Header />
+      <HeaderSummaryEN />
       <PersonalInfo
         name="Naumkin Alexander Nikolaevich"
         title="Personal information:"

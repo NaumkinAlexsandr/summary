@@ -1,7 +1,7 @@
 import React from "react";
 import { SectionUkrainian } from "../components/sectionUkrainian/SectionUkrainian";
 
-function Ukrainian() {
+function SummaryUa() {
   return (
     <>
       <SectionUkrainian />
@@ -9,4 +9,4 @@ function Ukrainian() {
   );
 }
 
-export { Ukrainian };
+export { SummaryUa };

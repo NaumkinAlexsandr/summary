@@ -1,8 +1,5 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
 import { Sotial } from "./Sotial";
-import Image from "react-bootstrap/Image";
-// import Image from "../photo/Image.jsx";
 
 const PersonalInfo = ({ name, title, date, city, phone }) => {
   return (

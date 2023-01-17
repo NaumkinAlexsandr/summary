@@ -1,11 +1,11 @@
 import React from "react";
 import { SectionEnglish } from "../components/sectionEnglish/SectionEnglish";
 
-function English() {
+function SummaryEn() {
   return (
     <>
       <SectionEnglish />
     </>
   );
 }
-export { English };
+export { SummaryEn };

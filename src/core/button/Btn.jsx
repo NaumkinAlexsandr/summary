@@ -1,12 +1,12 @@
 import Button from "react-bootstrap/Button";
 import { LinkContainer } from "react-router-bootstrap";
 
-const BtnLanguage = ({ to, language, className }) => {
+const Btn = ({ to, title, className }) => {
   return (
     <LinkContainer to={to}>
-      <Button className={className}>{language}</Button>
+      <Button className={className}>{title}</Button>
     </LinkContainer>
   );
 };
 
-export { BtnLanguage };
+export { Btn };

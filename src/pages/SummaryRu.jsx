@@ -1,7 +1,7 @@
 import React from "react";
 import { SectionRussian } from "../components/sectionRussian/SectionRussian";
 
-function Russian() {
+function SummaryRu() {
   return (
     <>
       <SectionRussian />
@@ -9,4 +9,4 @@ function Russian() {
   );
 }
 
-export { Russian };
+export { SummaryRu };

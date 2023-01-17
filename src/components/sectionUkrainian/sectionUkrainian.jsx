@@ -1,5 +1,5 @@
 import React from "react";
-import { HeaderUA } from "../header/HeaderUA";
+import { HeaderSummaryUA } from "../headers/HeaderSummaryUA";
 import { PersonalInfo } from "../personalInfo/PersonalInfo";
 import { HardSkill } from "../hardSkill/HardSkill";
 import { EducationUA } from "../education/EducationUA";
@@ -10,7 +10,7 @@ import { OtherInfo } from "../otherInfo/OtherInfo";
 function SectionUkrainian() {
   return (
     <>
-      <HeaderUA />
+      <HeaderSummaryUA />
       <PersonalInfo
         name="Наумкін Олександр Миколайович"
         title="Особисті дані:"

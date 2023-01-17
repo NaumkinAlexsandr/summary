@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/summary/static/css/main.db078729.css",
-    "main.js": "/summary/static/js/main.cd5c70e5.js",
+    "main.css": "/summary/static/css/main.f2fddfa8.css",
+    "main.js": "/summary/static/js/main.37c62695.js",
+    "static/media/odessa.png": "/summary/static/media/odessa.f6ade7023fe552b1a187.png",
+    "static/media/education.png": "/summary/static/media/education.92326b6cda885c79464d.png",
+    "static/media/weather.png": "/summary/static/media/weather.4a7ce1c11cb36296346e.png",
+    "static/media/foodDelivery.png": "/summary/static/media/foodDelivery.7f93d3465b2e1b6082b1.png",
     "static/media/photo.jpg": "/summary/static/media/photo.7901a95511f299fe97d6.jpg",
+    "static/media/hoodie.png": "/summary/static/media/hoodie.8bfd4c11de112b5630ab.png",
     "static/media/basic.png": "/summary/static/media/basic.91b85a1044cc68f9da9f.png",
     "static/media/NaumkinPro.png": "/summary/static/media/NaumkinPro.0a895331e6c7ea2c81f8.png",
+    "static/media/lightShop.png": "/summary/static/media/lightShop.b880fc228e183dba53a8.png",
     "static/media/recBasicRu.png": "/summary/static/media/recBasicRu.87c8acfb4b0fb9eafc33.png",
     "static/media/recProRu.png": "/summary/static/media/recProRu.e2b0088160e4fd515f2a.png",
     "static/media/recProUa.png": "/summary/static/media/recProUa.123347164732bdbf6f1c.png",
+    "static/media/hlegal.png": "/summary/static/media/hlegal.e26618dadee69ec5c096.png",
     "static/media/recBasicUa.png": "/summary/static/media/recBasicUa.31ce0e7aff6131de8d58.png",
+    "static/media/mobileApp.png": "/summary/static/media/mobileApp.07a80ef18ae66516e483.png",
     "static/media/recBasicEn.png": "/summary/static/media/recBasicEn.1d21807fcbccb45cc867.png",
     "static/media/recProEn.png": "/summary/static/media/recProEn.72c1ecdece199ad5a2ec.png",
     "static/media/background.jpg": "/summary/static/media/background.a1beb92cdf018abde13c.jpg",
+    "static/media/login.png": "/summary/static/media/login.0040ccdae23df141e55a.png",
     "index.html": "/summary/index.html",
-    "main.db078729.css.map": "/summary/static/css/main.db078729.css.map",
-    "main.cd5c70e5.js.map": "/summary/static/js/main.cd5c70e5.js.map"
+    "main.f2fddfa8.css.map": "/summary/static/css/main.f2fddfa8.css.map",
+    "main.37c62695.js.map": "/summary/static/js/main.37c62695.js.map"
   },
   "entrypoints": [
-    "static/css/main.db078729.css",
-    "static/js/main.cd5c70e5.js"
+    "static/css/main.f2fddfa8.css",
+    "static/js/main.37c62695.js"
   ]
 }

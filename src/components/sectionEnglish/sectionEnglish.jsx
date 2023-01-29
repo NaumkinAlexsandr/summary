@@ -6,6 +6,7 @@ import { EducationEN } from "../education/EducationEN";
 import { Experience } from "../experience/Experience";
 import { SoftSkill } from "../softSkill/SoftSkill";
 import { OtherInfo } from "../otherInfo/OtherInfo";
+import { Summary } from "../summary/Summary";
 
 function SectionEnglish() {
   return (
@@ -14,9 +15,12 @@ function SectionEnglish() {
       <PersonalInfo
         name="Naumkin Alexander Nikolaevich"
         title="Personal information:"
-        date="Date of birth: 06.08.1985"
         city="City: Odessa, Ukraine"
         phone="Phone:"
+      />
+      <Summary
+        title="Summary:"
+        summary="Hello! My name is Alexsander. I'm a future JavaScript developer. I studied JavaScript at Hillel IT School. I have got knowledge of HTML5,  CSS3 &  JavaScript. Also I have experience with technology of Flexbox, Grid at Hillel IT School . I would like to become a reliable member of the IT company team, where I'll be able to make useful and needful contributions to programming."
       />
       <HardSkill
         objective="Carrer objective"
@@ -35,12 +39,13 @@ function SectionEnglish() {
         additional="Additional education:"
         hardSkill="Hard Skill:"
         first="2022 Front-end Basic course at Hillel IT-school"
-        second="2022 Began to study Front-end Pro course at Hillel IT-school"
+        second="2023 Front-end Pro course at Hillel IT-school"
         third="2022 English language courses ABS elementary level"
         fourth="2022 Began to study English language courses ABS intermediate level"
+        fifth="Other certificates"
       />
       <Experience
-        experience="Work experience:"
+        experience="Professional experience:"
         first="From 03.09.2020 to 06.08.2021, TOV Arikol worked as a sales representative."
         second="From 01.07.2018 to 30.06.2020, worked at Johnson & Johnson as a sales representative."
         third="From 09.04.2016 to 30.06.2018, worked at Crytex Service in department of Kimberly-Clark, with key clients."
@@ -58,7 +63,7 @@ function SectionEnglish() {
         languages="Additional information:"
         hobbies="Hobbies:"
         first="Ukrainian - native"
-        second="English - elementary"
+        second="English - intermediate"
         third="Russian - native"
         fourth="travelling"
         fifth="football"

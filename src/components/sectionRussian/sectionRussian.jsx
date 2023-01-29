@@ -6,6 +6,7 @@ import { EducationRU } from "../education/EducationRU";
 import { Experience } from "../experience/Experience";
 import { SoftSkill } from "../softSkill/SoftSkill";
 import { OtherInfo } from "../otherInfo/OtherInfo";
+import { Summary } from "../summary/Summary";
 
 function SectionRussian() {
   return (
@@ -14,9 +15,12 @@ function SectionRussian() {
       <PersonalInfo
         name="Наумкин Александр Николаевич"
         title="Персональные данные:"
-        date="Дата рождения: 06.08.1985"
         city="Город: Одесса, Украина"
         phone="Телефон:"
+      />
+      <Summary
+        title="Резюме:"
+        summary="Привет! Меня зовут Александр. Я будущий разработчик JavaScript. Я изучал JavaScript в IT-школе Hillel. У меня есть знания HTML5, CSS3 и JavaScript. Также у меня есть опыт работы с технологиями Flexbox, Grid в ИТ-школе Hillel. Я хотел бы стать надежным членом команды ИТ-компании, где я смогу внести полезный и необходимый вклад в программирование."
       />
       <HardSkill
         objective="Карьерная цель"
@@ -34,12 +38,13 @@ function SectionRussian() {
         university="2003 - 2008 Одесский Государственный Экономический Университет, факультет международной экономики, специальность – маркетолог (магистр).."
         additional="Дополнительное образование:"
         first="2022 Начальный курс Front-end в IT-школе Hillel"
-        second="2022 Начал изучать курс Front-end Pro в IT-школе Hillel"
+        second="2023 Front-end Pro в IT-школе Hillel"
         third="2022 Курсы английского языка ABS начальный уровень"
         fourth="2022 Начала изучать английский язык на курсах ABS среднего уровня"
+        fifth="Другие сертификаты"
       />
       <Experience
-        experience="Опыт работы:"
+        experience="Профессиональный опыт:"
         first="С 3.09.2020 по 06.08.2021 работал ТОВ Арикол торговым представителем."
         second="С 1.07.2018 по 30.06.2020 работал в компании Johnson & Johnson,
         торговый представитель ОТС."
@@ -59,7 +64,7 @@ function SectionRussian() {
         languages="Дополнительная информация:"
         hobbies="Увлечения:"
         first="Украинский - родной"
-        second="Английский - начальный уровень"
+        second="Английский - средний"
         third="Русский - родной"
         fourth="путешествие"
         fifth="футбол"

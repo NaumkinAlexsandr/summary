@@ -48,6 +48,12 @@ function Projects() {
           href="https://naumkinalexsandr.github.io/weather/"
         />
         <Cards
+          className="cardImg seven"
+          project="Todo list"
+          tehnology="HTML, CSS, JavaScript, React, Redux"
+          href="https://naumkinalexsandr.github.io/Todolist/"
+        />
+        <Cards
           className="cardImg eight"
           project="Mobile APP"
           tehnology="HTML, CSS, JavaScript, React, Redux "

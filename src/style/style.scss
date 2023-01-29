@@ -124,6 +124,17 @@ body {
   }
 }
 
+// ----- summary -----
+#summary {
+  p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+}
+
+// ----- education -----
 #hardSkill,
 #education {
   ul {
@@ -170,6 +181,14 @@ body {
   height: 100%;
   width: 100%;
   background-image: url(../img/NaumkinPro.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.javaScript {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/JavaScript.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -229,6 +248,7 @@ body {
       height: 300px;
       border-radius: 10px 10px 0 0;
     }
+
     h3 {
       margin: 10px 15px;
       font-size: 20px;
@@ -283,11 +303,16 @@ body {
     }
 
     .eight {
-      background-image: url(../img/mobileApp.png);
+      background-image: url(../img/todoList.png);
       background-size: cover;
     }
 
     .nine {
+      background-image: url(../img/mobileApp.png);
+      background-size: cover;
+    }
+
+    .ten {
       background-image: url(../img/lightShop.png);
       background-size: cover;
     }

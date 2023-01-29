@@ -9,6 +9,7 @@ const EducationRU = ({
   second,
   third,
   fourth,
+  fifth,
 }) => {
   return (
     <div id="education" className="container-fluid">
@@ -44,6 +45,14 @@ const EducationRU = ({
               certificate="Рекомендация"
               title="Рекомендация"
               className="recommendation ruPro"
+            />
+          </li>
+          <li>
+            <h6>{fifth}</h6>
+            <Example
+              certificate="JavaScript"
+              title="Sololearn"
+              className="javaScript"
             />
           </li>
           <li>

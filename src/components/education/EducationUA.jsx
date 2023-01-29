@@ -9,6 +9,7 @@ const EducationUA = ({
   second,
   third,
   fourth,
+  fifth,
 }) => {
   return (
     <div id="education" className="container-fluid">
@@ -44,6 +45,14 @@ const EducationUA = ({
               certificate="Рекомендація"
               title="Рекомендація"
               className="recommendation uaPro"
+            />
+          </li>
+          <li>
+            <h6>{fifth}</h6>
+            <Example
+              certificate="JavaScript"
+              title="Sololearn"
+              className="javaScript"
             />
           </li>
           <li>

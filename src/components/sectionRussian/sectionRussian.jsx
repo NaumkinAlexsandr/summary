@@ -1,17 +1,33 @@
 import React from "react";
-import { HeaderSummaryRU } from "../headers/HeaderSummaryRU";
 import { PersonalInfo } from "../personalInfo/PersonalInfo";
 import { HardSkill } from "../hardSkill/HardSkill";
-import { EducationRU } from "../education/EducationRU";
+import { Education } from "../education/Education";
 import { Experience } from "../experience/Experience";
 import { SoftSkill } from "../softSkill/SoftSkill";
 import { OtherInfo } from "../otherInfo/OtherInfo";
 import { Summary } from "../summary/Summary";
+import { Header } from "../header/Header";
 
 function SectionRussian() {
   return (
     <>
-      <HeaderSummaryRU />
+      <Header
+        className1="btnTitle"
+        className2="btnTitle"
+        className3="btnLanguage"
+        className4="btnLanguage"
+        className5="btnLanguage active"
+        to1="/summary/ru"
+        to2="/projects/ru"
+        to3="/summary/"
+        to4="/summary/ua"
+        to5="/summary/ru"
+        title1="Резюме"
+        title2="Проекты"
+        title3="EN"
+        title4="UA"
+        title5="RU"
+      />
       <PersonalInfo
         name="Наумкин Александр Николаевич"
         title="Персональные данные:"
@@ -33,7 +49,7 @@ function SectionRussian() {
         fifth="Bootstrap"
         sixth="Webpack"
       />
-      <EducationRU
+      <Education
         education="Образование:"
         university="2003 - 2008 Одесский Государственный Экономический Университет, факультет международной экономики, специальность – маркетолог (магистр).."
         additional="Дополнительное образование:"
@@ -42,6 +58,23 @@ function SectionRussian() {
         third="2022 Курсы английского языка ABS начальный уровень"
         fourth="2022 Начала изучать английский язык на курсах ABS среднего уровня"
         fifth="Другие сертификаты"
+        certificateOne="Сертификат"
+        titleOne="Сертификат выпускника"
+        hrefOne="https://certificate.ithillel.ua/view/34550382"
+        classNameOne="certificateBasic"
+        certificateTwo="Рекомендация"
+        titleTwo="Рекомендация"
+        classNameTwo="recommendation ruBasic"
+        certificateThree="Сертификат"
+        titleThree="Сертификат выпускника"
+        hrefThree="https://certificate.ithillel.ua/view/50761145"
+        classNameThree="certificatePro"
+        certificateFour="Рекомендация"
+        titleFour="Рекомендация"
+        classNameFour="recommendation ruPro"
+        certificateFive="JavaScript"
+        titleFive="Sololearn"
+        classNameFive="javaScript"
       />
       <Experience
         experience="Профессиональный опыт:"

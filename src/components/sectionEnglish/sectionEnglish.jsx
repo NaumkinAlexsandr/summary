@@ -1,17 +1,33 @@
 import React from "react";
-import { HeaderSummaryEN } from "../headers/HeaderSummaryEN";
 import { PersonalInfo } from "../personalInfo/PersonalInfo";
 import { HardSkill } from "../hardSkill/HardSkill";
-import { EducationEN } from "../education/EducationEN";
+import { Education } from "../education/Education";
 import { Experience } from "../experience/Experience";
 import { SoftSkill } from "../softSkill/SoftSkill";
 import { OtherInfo } from "../otherInfo/OtherInfo";
 import { Summary } from "../summary/Summary";
+import { Header } from "../header/Header";
 
 function SectionEnglish() {
   return (
     <>
-      <HeaderSummaryEN />
+      <Header
+        className1="btnTitle"
+        className2="btnTitle"
+        className3="btnLanguage active"
+        className4="btnLanguage"
+        className5="btnLanguage"
+        to1="/summary/"
+        to2="/projects/en"
+        to3="/summary/"
+        to4="/summary/ua"
+        to5="/summary/ru"
+        title1="Summary"
+        title2="Projects"
+        title3="EN"
+        title4="UA"
+        title5="RU"
+      />
       <PersonalInfo
         name="Naumkin Alexander Nikolaevich"
         title="Personal information:"
@@ -33,7 +49,7 @@ function SectionEnglish() {
         fifth="Bootstrap"
         sixth="Webpack"
       />
-      <EducationEN
+      <Education
         education="Education:"
         university="2003 - 2008 Odessa State Economic University, Faculty of International Economics, specialty – marketer (master)."
         additional="Additional education:"
@@ -43,6 +59,23 @@ function SectionEnglish() {
         third="2022 English language courses ABS elementary level"
         fourth="2022 Began to study English language courses ABS intermediate level"
         fifth="Other certificates"
+        certificateOne="Certificate"
+        titleOne="Graduate certificate"
+        hrefOne="https://certificate.ithillel.ua/view/34550382"
+        classNameOne="certificateBasic"
+        certificateTwo="Recommendation"
+        titleTwo="Recommendation"
+        classNameTwo="recommendation enBasic"
+        certificateThree="Certificate"
+        titleThree="Graduate certificate"
+        hrefThree="https://certificate.ithillel.ua/view/50761145"
+        classNameThree="certificatePro"
+        certificateFour="Recommendation"
+        titleFour="Recommendation"
+        classNameFour="recommendation enPro"
+        certificateFive="JavaScript"
+        titleFive="Sololearn"
+        classNameFive="javaScript"
       />
       <Experience
         experience="Professional experience:"

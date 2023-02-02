@@ -1,17 +1,33 @@
 import React from "react";
-import { HeaderSummaryUA } from "../headers/HeaderSummaryUA";
 import { PersonalInfo } from "../personalInfo/PersonalInfo";
 import { HardSkill } from "../hardSkill/HardSkill";
-import { EducationUA } from "../education/EducationUA";
+import { Education } from "../education/Education";
 import { Experience } from "../experience/Experience";
 import { SoftSkill } from "../softSkill/SoftSkill";
 import { OtherInfo } from "../otherInfo/OtherInfo";
 import { Summary } from "../summary/Summary";
+import { Header } from "../header/Header";
 
 function SectionUkrainian() {
   return (
     <>
-      <HeaderSummaryUA />
+      <Header
+        className1="btnTitle"
+        className2="btnTitle"
+        className3="btnLanguage"
+        className4="btnLanguage active"
+        className5="btnLanguage"
+        to1="/summary/ua"
+        to2="/projects/ua"
+        to3="/summary/"
+        to4="/summary/ua"
+        to5="/summary/ru"
+        title1="Резюме"
+        title2="Проекти"
+        title3="EN"
+        title4="UA"
+        title5="RU"
+      />
       <PersonalInfo
         name="Наумкін Олександр Миколайович"
         title="Особисті дані:"
@@ -33,7 +49,7 @@ function SectionUkrainian() {
         fifth="Bootstrap"
         sixth="Webpack"
       />
-      <EducationUA
+      <Education
         education="Освіта:"
         university="2003 - 2008 Одеський Державний Економічний Університет, факультет міжнародної економіки, спеціальність – маркетолог (магістр)."
         additional="Додаткова освіта:"
@@ -42,6 +58,23 @@ function SectionUkrainian() {
         third="2022 Курси англійської мови ABS початковий рівень"
         fourth="2022 Почала вивчати англійську мову на курсах середнього рівня ABS"
         fifth="Інші сертифікати"
+        certificateOne="Сертифікат"
+        titleOne="Сертифікат випускника"
+        hrefOne="https://certificate.ithillel.ua/view/34550382"
+        classNameOne="certificateBasic"
+        certificateTwo="Рекомендація"
+        titleTwo="Рекомендація"
+        classNameTwo="recommendation uaBasic"
+        certificateThree="Сертифікат"
+        titleThree="Сертифікат випускника"
+        hrefThree="https://certificate.ithillel.ua/view/50761145"
+        classNameThree="certificatePro"
+        certificateFour="Рекомендація"
+        titleFour="Рекомендація"
+        classNameFour="recommendation uaPro"
+        certificateFive="JavaScript"
+        titleFive="Sololearn"
+        classNameFive="javaScript"
       />
       <Experience
         experience="Професійний досвід:"

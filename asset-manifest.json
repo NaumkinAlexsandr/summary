@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/summary/static/css/main.fc5c2fd1.css",
-    "main.js": "/summary/static/js/main.26b5ae72.js",
+    "main.css": "/summary/static/css/main.eb88cbfe.css",
+    "main.js": "/summary/static/js/main.c5b53866.js",
     "static/media/odessa.png": "/summary/static/media/odessa.b5d3fdd2f2bf3e8dc92b.png",
     "static/media/photo.jpg": "/summary/static/media/photo.8bfa64f322f164ab1749.jpg",
     "static/media/JavaScript.png": "/summary/static/media/JavaScript.4613f216b6f447772751.png",
+    "static/media/html.png": "/summary/static/media/html.a4ee0a28fbe0a4160e00.png",
+    "static/media/css.png": "/summary/static/media/css.f63e2e8a47153b9997c3.png",
     "static/media/foodDelivery.png": "/summary/static/media/foodDelivery.1d1137e063e1da0a5408.png",
     "static/media/lightShop.png": "/summary/static/media/lightShop.b880fc228e183dba53a8.png",
     "static/media/education.png": "/summary/static/media/education.83dfa7510193199ec282.png",
@@ -24,11 +26,11 @@
     "static/media/login.png": "/summary/static/media/login.0040ccdae23df141e55a.png",
     "static/media/todoList.png": "/summary/static/media/todoList.aa75dcf748b22664dacf.png",
     "index.html": "/summary/index.html",
-    "main.fc5c2fd1.css.map": "/summary/static/css/main.fc5c2fd1.css.map",
-    "main.26b5ae72.js.map": "/summary/static/js/main.26b5ae72.js.map"
+    "main.eb88cbfe.css.map": "/summary/static/css/main.eb88cbfe.css.map",
+    "main.c5b53866.js.map": "/summary/static/js/main.c5b53866.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc5c2fd1.css",
-    "static/js/main.26b5ae72.js"
+    "static/css/main.eb88cbfe.css",
+    "static/js/main.c5b53866.js"
   ]
 }

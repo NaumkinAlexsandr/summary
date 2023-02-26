@@ -75,6 +75,12 @@ function SectionUkrainian() {
         certificateFive="JavaScript"
         titleFive="Sololearn"
         classNameFive="javaScript"
+        certificateSix="HTML"
+        titleSix="Sololearn"
+        classNameSix="html"
+        certificateSeven="CSS"
+        titleSeven="Sololearn"
+        classNameSeven="css"
       />
       <Experience
         experience="Професійний досвід:"

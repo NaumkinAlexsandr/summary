@@ -27,6 +27,12 @@ const Education = ({
   certificateFive,
   titleFive,
   classNameFive,
+  certificateSix,
+  titleSix,
+  classNameSix,
+  certificateSeven,
+  titleSeven,
+  classNameSeven,
 }) => {
   return (
     <div id="education" className="container-fluid">
@@ -66,6 +72,16 @@ const Education = ({
           </li>
           <li>
             <h6>{fifth}</h6>
+            <Example
+              certificate={certificateSix}
+              title={titleSix}
+              className={classNameSix}
+            />
+            <Example
+              certificate={certificateSeven}
+              title={titleSeven}
+              className={classNameSeven}
+            />
             <Example
               certificate={certificateFive}
               title={titleFive}

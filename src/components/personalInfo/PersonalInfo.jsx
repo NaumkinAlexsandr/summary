@@ -1,5 +1,6 @@
 import React from "react";
 import { Sotial } from "./Sotial";
+import "./personalInfo.scss";
 
 const PersonalInfo = ({ name, title, date, city, phone }) => {
   return (

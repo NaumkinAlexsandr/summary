@@ -7,16 +7,17 @@ import { SoftSkill } from "../softSkill/SoftSkill";
 import { OtherInfo } from "../otherInfo/OtherInfo";
 import { Summary } from "../summary/Summary";
 import { Header } from "../header/Header";
+import { HeaderSecond } from "../header/HeaderSecond";
 
-function SectionRussian() {
+function SummaryRu() {
   return (
     <>
       <Header
-        className1="btnTitle"
-        className2="btnTitle"
-        className3="btnLanguage"
-        className4="btnLanguage"
-        className5="btnLanguage active"
+        className1="btn-summary"
+        className2="btn-projects"
+        className3="menu-nav"
+        className4="menu-nav"
+        className5="menu-nav active-ru"
         to1="/summary/ru"
         to2="/projects/ru"
         to3="/summary/"
@@ -27,6 +28,8 @@ function SectionRussian() {
         title3="EN"
         title4="UA"
         title5="RU"
+        id1="summary-buttun"
+        id2="projects-buttun"
       />
       <PersonalInfo
         name="Наумкин Александр Николаевич"
@@ -43,11 +46,11 @@ function SectionRussian() {
         look="Ищу постоянную работу в качестве младшего Front-end разработчика."
         hardSkill="Профессиональные навыки:"
         first="HTML5, CSS3, SASS"
-        second="JS, REACT, REDUX"
-        third="Git"
-        fourth="Figma"
-        fifth="Bootstrap"
-        sixth="Webpack"
+        second="JS, React, React-Router, Redux"
+        third="Bootstrap, React-Bootstrap, Material UI, Materialize"
+        fourth="Git, GitHub"
+        fifth="Webpack"
+        sixth="Figma"
       />
       <Education
         education="Образование:"
@@ -112,4 +115,4 @@ function SectionRussian() {
     </>
   );
 }
-export { SectionRussian };
+export { SummaryRu };

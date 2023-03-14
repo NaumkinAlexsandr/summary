@@ -6,61 +6,61 @@ function Projects() {
     <>
       <div className="cards">
         <Cards
-          className="cardImg one"
+          className="card-img one"
           project="Food delivery"
           tehnology="HTML, CSS"
           href="https://naumkinalexsandr.github.io/Food_delivery/"
         />
         <Cards
-          className="cardImg two"
+          className="card-img two"
           project="3D-hoodie"
           tehnology="HTML, CSS, JavaScript"
           href="https://naumkinalexsandr.github.io/3D-hoodie/"
         />
         <Cards
-          className="cardImg three"
+          className="card-img three"
           project="HLEGAL"
           tehnology="HTML, CSS, SCSS, JavaScript"
           href="https://naumkinalexsandr.github.io/HLEGALS/"
         />
         <Cards
-          className="cardImg four"
+          className="card-img four"
           project="Odessa"
           tehnology="HTML, CSS, SCSS, JavaScript"
           href="https://naumkinalexsandr.github.io/Odessa/"
         />
         <Cards
-          className="cardImg five"
+          className="card-img five"
           project="Authorization"
           tehnology="HTML, CSS, JavaScript"
           href="https://naumkinalexsandr.github.io/login/"
         />
         <Cards
-          className="cardImg six"
+          className="card-img six"
           project="Education"
           tehnology="HTML, CSS, SCSS, Bootstrap, JavaScript"
           href="https://naumkinalexsandr.github.io/education/html/html.html"
         />
         <Cards
-          className="cardImg seven"
+          className="card-img seven"
           project="Weather forecast"
           tehnology="HTML, CSS, JavaScript, React"
           href="https://naumkinalexsandr.github.io/weather/"
         />
         <Cards
-          className="cardImg eight"
+          className="card-img eight"
           project="Todo list"
           tehnology="HTML, CSS, JavaScript, React, Redux"
           href="https://naumkinalexsandr.github.io/Todolist/"
         />
         <Cards
-          className="cardImg nine"
+          className="card-img nine"
           project="Mobile APP"
           tehnology="HTML, CSS, JavaScript, React, Redux "
           href="https://github.com/NaumkinAlexsandr/diploma"
         />
         <Cards
-          className="cardImg ten"
+          className="card-img ten"
           project="Light Shop"
           tehnology="HTML, CSS, JavaScript, React, Redux, Material UI"
           href="https://naumkinalexsandr.github.io/LightShop/"

@@ -6,17 +6,18 @@ import { Experience } from "../experience/Experience";
 import { SoftSkill } from "../softSkill/SoftSkill";
 import { OtherInfo } from "../otherInfo/OtherInfo";
 import { Summary } from "../summary/Summary";
+import { HeaderSecond } from "../header/HeaderSecond";
 import { Header } from "../header/Header";
 
-function SectionUkrainian() {
+function SummaryUA() {
   return (
     <>
       <Header
-        className1="btnTitle"
-        className2="btnTitle"
-        className3="btnLanguage"
-        className4="btnLanguage active"
-        className5="btnLanguage"
+        className1="btn-summary"
+        className2="btn-projects"
+        className3="menu-nav"
+        className4="menu-nav active-ua"
+        className5="menu-nav"
         to1="/summary/ua"
         to2="/projects/ua"
         to3="/summary/"
@@ -27,6 +28,8 @@ function SectionUkrainian() {
         title3="EN"
         title4="UA"
         title5="RU"
+        id1="summary-buttun"
+        id2="projects-buttun"
       />
       <PersonalInfo
         name="Наумкін Олександр Миколайович"
@@ -43,11 +46,11 @@ function SectionUkrainian() {
         look="Шукаю роботу Junior Front-end Developer на повний робочий день."
         hardSkill="Професійні навички:"
         first="HTML5, CSS3, SASS"
-        second="JS, REACT, REDUX"
-        third="Git"
-        fourth="Figma"
-        fifth="Bootstrap"
-        sixth="Webpack"
+        second="JS, React, React-Router, Redux"
+        third="Bootstrap, React-Bootstrap, Material UI, Materialize"
+        fourth="Git, GitHub"
+        fifth="Webpack"
+        sixth="Figma"
       />
       <Education
         education="Освіта:"
@@ -110,4 +113,4 @@ function SectionUkrainian() {
     </>
   );
 }
-export { SectionUkrainian };
+export { SummaryUA };

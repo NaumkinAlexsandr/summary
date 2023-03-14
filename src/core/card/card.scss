@@ -1,0 +1,100 @@
+.cards {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px 20px 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+
+  .card-project {
+    max-width: 320px;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    background-color: rgb(231, 231, 231);
+    position: relative;
+    box-shadow: 5px 5px 8px 1px rgb(107, 107, 107);
+
+    .card-img {
+      width: 100%;
+      height: 300px;
+      border-radius: 10px 10px 0 0;
+    }
+
+    h3 {
+      margin: 10px 15px;
+      font-size: 20px;
+    }
+
+    h4 {
+      margin: 6px 15px;
+      font-size: 14px;
+    }
+
+    a {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      position: absolute;
+      top: 0;
+    }
+
+    .one {
+      background-image: url(../../img/foodDelivery.png);
+      background-size: cover;
+    }
+
+    .two {
+      background-image: url(../../img/hoodie.png);
+      background-size: cover;
+    }
+
+    .three {
+      background-image: url(../../img/hlegal.png);
+      background-size: cover;
+    }
+
+    .four {
+      background-image: url(../../img/odessa.png);
+      background-size: cover;
+    }
+
+    .five {
+      background-image: url(../../img/login.png);
+      background-size: cover;
+    }
+
+    .six {
+      background-image: url(../../img/education.png);
+      background-size: cover;
+    }
+
+    .seven {
+      background-image: url(../../img/weather.png);
+      background-size: cover;
+    }
+
+    .eight {
+      background-image: url(../../img/todoList.png);
+      background-size: cover;
+    }
+
+    .nine {
+      background-image: url(../../img/mobileApp.png);
+      background-size: cover;
+    }
+
+    .ten {
+      background-image: url(../../img/lightShop.png);
+      background-size: cover;
+    }
+  }
+
+  .card-project-dark {
+    background-color: rgb(51, 51, 51);
+    border: 1px solid rgb(104, 104, 104);
+    color: silver;
+  }
+}

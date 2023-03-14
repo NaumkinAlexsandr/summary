@@ -1,4 +1,7 @@
+import React, { useState, useEffect } from "react";
 import { Btn } from "../../core/button/Btn.jsx";
+import Translate from "./Translate.jsx";
+import "./header.scss";
 
 const Header = ({
   className1,
@@ -16,18 +19,45 @@ const Header = ({
   title3,
   title4,
   title5,
+  id1,
+  id2,
 }) => {
+  const [bodyClassName, setBodyClassName] = useState("");
+
+  useEffect(() => {
+    setBodyClassName(document.querySelector("body").className);
+  }, []);
+
+  useEffect(() => {
+    const summaryBtn = document.getElementById("summary-buttun");
+    const projectsBtn = document.getElementById("projects-buttun");
+
+    if (bodyClassName === "body-dark") {
+      summaryBtn.classList.add("btn-summary-dark");
+      projectsBtn.classList.add("btn-projects-dark");
+    } else {
+      summaryBtn.classList.remove("btn-summary-dark");
+      projectsBtn.classList.remove("btn-projects-dark");
+    }
+  }, [bodyClassName]);
+
   return (
     <header id="header" className="container-fluid">
       <div>
-        <Btn className={className1} to={to1} title={title1} />
-        <Btn className={className2} to={to2} title={title2} />
+        <Btn id={id1} className={className1} to={to1} title={title1} />
+        <Btn id={id2} className={className2} to={to2} title={title2} />
       </div>
-      <div>
-        <Btn className={className3} to={to3} title={title3} />
-        <Btn className={className4} to={to4} title={title4} />
-        <Btn className={className5} to={to5} title={title5} />
-      </div>
+      <Translate
+        className3={className3}
+        className4={className4}
+        className5={className5}
+        to3={to3}
+        to4={to4}
+        to5={to5}
+        title3={title3}
+        title4={title4}
+        title5={title5}
+      />
     </header>
   );
 };

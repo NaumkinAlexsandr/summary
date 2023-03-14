@@ -1,16 +1,17 @@
 import React from "react";
 import { Header } from "../header/Header";
 import { Projects } from "../projects/Projects";
+import { HeaderSecond } from "../header/HeaderSecond";
 
-function SectionProjectsEN() {
+function ProjectsEN() {
   return (
     <>
       <Header
-        className1="btnTitle"
-        className2="btnTitle"
-        className3="btnLanguage active"
-        className4="btnLanguage"
-        className5="btnLanguage"
+        className1="btn-summary"
+        className2="btn-projects"
+        className3="menu-nav active-en"
+        className4="menu-nav"
+        className5="menu-nav"
         to1="/summary/"
         to2="/projects/en"
         to3="/projects/en"
@@ -21,9 +22,11 @@ function SectionProjectsEN() {
         title3="EN"
         title4="UA"
         title5="RU"
+        id1="summary-buttun"
+        id2="projects-buttun"
       />
       <Projects />
     </>
   );
 }
-export { SectionProjectsEN };
+export { ProjectsEN };

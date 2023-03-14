@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Example } from "./Modal";
+import "./education.scss";
 
 const Education = ({
   education,
@@ -34,6 +35,25 @@ const Education = ({
   titleSeven,
   classNameSeven,
 }) => {
+  const [bodyClassName, setBodyClassName] = useState("");
+
+  useEffect(() => {
+    setBodyClassName(document.querySelector("body").className);
+  }, []);
+
+  useEffect(() => {
+    const buttons = document.querySelectorAll("#education button");
+    if (bodyClassName === "body-dark") {
+      buttons.forEach((button) => {
+        button.classList.add("education-btn-dark");
+      });
+    } else {
+      buttons.forEach((button) => {
+        button.classList.remove("education-btn-dark");
+      });
+    }
+  }, [bodyClassName]);
+
   return (
     <div id="education" className="container-fluid">
       <div className="row">

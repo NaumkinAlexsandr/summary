@@ -1,23 +1,23 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { SummaryEn } from "./pages/SummaryEn";
-import { SummaryUa } from "./pages/SummaryUa";
-import { SummaryRu } from "./pages/SummaryRu";
+import { PageSummaryUa } from "./pages/PageSummaryUa";
+import { PageSummaryEn } from "./pages/PageSummaryEn";
+import { PageSummaryRu } from "./pages/PageSummaryRu";
 import { NofoundPage } from "./pages/Nofoundpage";
-import { ProjectsEn } from "./pages/ProjectsEn";
-import { ProjectsUa } from "./pages/ProjectsUa";
-import { ProjectsRu } from "./pages/ProjectsRu";
+import { PageProjectsEn } from "./pages/PageProjectsEn";
+import { PageProjectsUa } from "./pages/PageProjectsUa";
+import { PageProjectsRu } from "./pages/PageProjectsRu";
 
 function Routing() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/summary" element={<SummaryEn />}></Route>
-        <Route path="/summary/ua" element={<SummaryUa />} />
-        <Route path="/summary/ru" element={<SummaryRu />} />
-        <Route path="/projects/en" element={<ProjectsEn />} />
-        <Route path="/projects/ua" element={<ProjectsUa />} />
-        <Route path="/projects/ru" element={<ProjectsRu />} />
+        <Route path="/summary" element={<PageSummaryEn />} />
+        <Route path="/summary/ua" element={<PageSummaryUa />} />
+        <Route path="/summary/ru" element={<PageSummaryRu />} />
+        <Route path="/projects/en" element={<PageProjectsEn />} />
+        <Route path="/projects/ua" element={<PageProjectsUa />} />
+        <Route path="/projects/ru" element={<PageProjectsRu />} />
         <Route path="*" element={<NofoundPage />} />
       </Routes>
     </BrowserRouter>

@@ -1,0 +1,42 @@
+#header {
+  margin: 10px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+
+  .btn-title,
+  .btn-summary,
+  .btn-projects {
+    width: 80px;
+    height: 30px;
+    padding: 3px 0 0 0;
+    background-color: silver;
+    border-color: gray;
+    margin: 10px 0 0 10px;
+  }
+
+  .btn-language {
+    width: 40px;
+    height: 30px;
+    padding: 3px 0 0 0;
+    background-color: silver;
+    border-color: gray;
+    margin: 10px 0 0 10px;
+  }
+
+  .btn-summary-dark,
+  .btn-projects-dark {
+    background-color: rgb(51, 51, 51);
+    border: 1px solid rgb(104, 104, 104);
+  }
+
+  .active {
+    background-color: rgb(104, 104, 104);
+    border: none;
+    color: #fff;
+  }
+
+  .header-menu {
+    display: flex;
+    flex-direction: row;
+  }
+}

@@ -17,7 +17,7 @@ function Example({ certificate, title, href, className }) {
       {values.map((v, idx) => (
         <Button
           key={idx}
-          className="btn me-2 mb-2"
+          className="education-btn me-2 mb-2"
           onClick={() => handleShow(v)}
         >
           {certificate}

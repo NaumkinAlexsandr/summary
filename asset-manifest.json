@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/summary/static/css/main.eb88cbfe.css",
-    "main.js": "/summary/static/js/main.c5b53866.js",
+    "main.css": "/summary/static/css/main.d1fa7ae3.css",
+    "main.js": "/summary/static/js/main.06420b5e.js",
     "static/media/odessa.png": "/summary/static/media/odessa.b5d3fdd2f2bf3e8dc92b.png",
     "static/media/photo.jpg": "/summary/static/media/photo.8bfa64f322f164ab1749.jpg",
     "static/media/JavaScript.png": "/summary/static/media/JavaScript.4613f216b6f447772751.png",
@@ -12,25 +12,26 @@
     "static/media/education.png": "/summary/static/media/education.83dfa7510193199ec282.png",
     "static/media/weather.png": "/summary/static/media/weather.c57868b644b4ae1b0111.png",
     "static/media/recBasicRu.png": "/summary/static/media/recBasicRu.87c8acfb4b0fb9eafc33.png",
+    "static/media/themedark.jpg": "/summary/static/media/themedark.7394f15545d11958de6e.jpg",
     "static/media/recProRu.png": "/summary/static/media/recProRu.e2b0088160e4fd515f2a.png",
     "static/media/recProUa.png": "/summary/static/media/recProUa.123347164732bdbf6f1c.png",
     "static/media/hoodie.png": "/summary/static/media/hoodie.b10845f8c0e94435aae8.png",
     "static/media/hlegal.png": "/summary/static/media/hlegal.e26618dadee69ec5c096.png",
     "static/media/recBasicUa.png": "/summary/static/media/recBasicUa.31ce0e7aff6131de8d58.png",
+    "static/media/themelight.png": "/summary/static/media/themelight.99aa5866bcc75085fbe8.png",
     "static/media/mobileApp.png": "/summary/static/media/mobileApp.07a80ef18ae66516e483.png",
     "static/media/recBasicEn.png": "/summary/static/media/recBasicEn.1d21807fcbccb45cc867.png",
     "static/media/recProEn.png": "/summary/static/media/recProEn.72c1ecdece199ad5a2ec.png",
     "static/media/NaumkinPro.png": "/summary/static/media/NaumkinPro.8780d829831b73fd258d.png",
-    "static/media/background.jpg": "/summary/static/media/background.a1beb92cdf018abde13c.jpg",
     "static/media/basic.png": "/summary/static/media/basic.ea9df6e4843ebc59e0ee.png",
     "static/media/login.png": "/summary/static/media/login.0040ccdae23df141e55a.png",
     "static/media/todoList.png": "/summary/static/media/todoList.aa75dcf748b22664dacf.png",
     "index.html": "/summary/index.html",
-    "main.eb88cbfe.css.map": "/summary/static/css/main.eb88cbfe.css.map",
-    "main.c5b53866.js.map": "/summary/static/js/main.c5b53866.js.map"
+    "main.d1fa7ae3.css.map": "/summary/static/css/main.d1fa7ae3.css.map",
+    "main.06420b5e.js.map": "/summary/static/js/main.06420b5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb88cbfe.css",
-    "static/js/main.c5b53866.js"
+    "static/css/main.d1fa7ae3.css",
+    "static/js/main.06420b5e.js"
   ]
 }

@@ -1,7 +1,7 @@
 import "./card.scss";
 import { useEffect, useState } from "react";
 
-const Cards = ({ className, project, tehnology, href }) => {
+const Cards = ({ className, project, tehnology, href, info }) => {
   const [themeClassName, setThemeClassName] = useState("card-project");
 
   useEffect(() => {
@@ -15,6 +15,7 @@ const Cards = ({ className, project, tehnology, href }) => {
       <div className={className}></div>
       <h3>{project}</h3>
       <h4>{tehnology}</h4>
+      <p>{info}</p>
       <a target="_blank" href={href}></a>
     </div>
   );

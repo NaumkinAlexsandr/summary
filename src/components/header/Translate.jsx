@@ -36,7 +36,6 @@ export default function Translate({
       theme === "light-theme" ? "dark-theme" : "light-theme";
     setTheme(selectedTheme);
     localStorage.setItem("theme", selectedTheme);
-    window.location.reload(false);
   }
 
   return (

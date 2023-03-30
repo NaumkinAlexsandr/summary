@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/summary/static/css/main.d1fa7ae3.css",
-    "main.js": "/summary/static/js/main.3973e0a4.js",
+    "main.css": "/summary/static/css/main.46615515.css",
+    "main.js": "/summary/static/js/main.903bf148.js",
     "static/media/odessa.png": "/summary/static/media/odessa.b5d3fdd2f2bf3e8dc92b.png",
+    "static/media/weather.png": "/summary/static/media/weather.1726b956cad53fe94cfa.png",
+    "static/media/witcher.png": "/summary/static/media/witcher.a2d1f59d0d8ae7359be8.png",
     "static/media/photo.jpg": "/summary/static/media/photo.8bfa64f322f164ab1749.jpg",
+    "static/media/magicalForest.png": "/summary/static/media/magicalForest.b9d3bc6c1bdc68565ddd.png",
     "static/media/JavaScript.png": "/summary/static/media/JavaScript.4613f216b6f447772751.png",
     "static/media/html.png": "/summary/static/media/html.a4ee0a28fbe0a4160e00.png",
     "static/media/css.png": "/summary/static/media/css.f63e2e8a47153b9997c3.png",
     "static/media/foodDelivery.png": "/summary/static/media/foodDelivery.1d1137e063e1da0a5408.png",
     "static/media/lightShop.png": "/summary/static/media/lightShop.b880fc228e183dba53a8.png",
     "static/media/education.png": "/summary/static/media/education.83dfa7510193199ec282.png",
-    "static/media/weather.png": "/summary/static/media/weather.c57868b644b4ae1b0111.png",
     "static/media/recBasicRu.png": "/summary/static/media/recBasicRu.87c8acfb4b0fb9eafc33.png",
     "static/media/themedark.jpg": "/summary/static/media/themedark.7394f15545d11958de6e.jpg",
+    "static/media/vincode.png": "/summary/static/media/vincode.140f7e2f373acfc93e80.png",
     "static/media/recProRu.png": "/summary/static/media/recProRu.e2b0088160e4fd515f2a.png",
     "static/media/recProUa.png": "/summary/static/media/recProUa.123347164732bdbf6f1c.png",
     "static/media/hoodie.png": "/summary/static/media/hoodie.b10845f8c0e94435aae8.png",
@@ -27,11 +30,11 @@
     "static/media/login.png": "/summary/static/media/login.0040ccdae23df141e55a.png",
     "static/media/todoList.png": "/summary/static/media/todoList.aa75dcf748b22664dacf.png",
     "index.html": "/summary/index.html",
-    "main.d1fa7ae3.css.map": "/summary/static/css/main.d1fa7ae3.css.map",
-    "main.3973e0a4.js.map": "/summary/static/js/main.3973e0a4.js.map"
+    "main.46615515.css.map": "/summary/static/css/main.46615515.css.map",
+    "main.903bf148.js.map": "/summary/static/js/main.903bf148.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1fa7ae3.css",
-    "static/js/main.3973e0a4.js"
+    "static/css/main.46615515.css",
+    "static/js/main.903bf148.js"
   ]
 }

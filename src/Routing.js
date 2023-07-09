@@ -7,6 +7,7 @@ import { NofoundPage } from "./pages/Nofoundpage";
 import { PageProjectsEn } from "./pages/PageProjectsEn";
 import { PageProjectsUa } from "./pages/PageProjectsUa";
 import { PageProjectsRu } from "./pages/PageProjectsRu";
+import BackTop from "./core/BackTop";
 
 function Routing() {
   return (
@@ -20,6 +21,7 @@ function Routing() {
         <Route path="/projects/ru" element={<PageProjectsRu />} />
         <Route path="*" element={<NofoundPage />} />
       </Routes>
+      <BackTop />
     </BrowserRouter>
   );
 }

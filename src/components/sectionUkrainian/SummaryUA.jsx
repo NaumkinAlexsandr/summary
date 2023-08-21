@@ -6,7 +6,6 @@ import { Experience } from "../experience/Experience";
 import { SoftSkill } from "../softSkill/SoftSkill";
 import { OtherInfo } from "../otherInfo/OtherInfo";
 import { Summary } from "../summary/Summary";
-import { HeaderSecond } from "../header/HeaderSecond";
 import { Header } from "../header/Header";
 
 function SummaryUA() {

@@ -7,7 +7,6 @@ import { SoftSkill } from "../softSkill/SoftSkill";
 import { OtherInfo } from "../otherInfo/OtherInfo";
 import { Summary } from "../summary/Summary";
 import { Header } from "../header/Header";
-import { HeaderSecond } from "../header/HeaderSecond";
 import "../../components/header/translate.scss";
 
 function SummaryEn() {

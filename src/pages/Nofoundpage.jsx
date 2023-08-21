@@ -1,16 +1,18 @@
 import { Link } from "react-router-dom";
-// import { HeaderEmpty } from "../core/headerEmpty/HeaderEmpty";
-// import { HeaderLine } from "../core/headerLine/HeaderLine";
+import { Helmet } from "react-helmet";
 
 function NofoundPage() {
   return (
-    <div>
+    <>
+      <Helmet>
+        <title>Page not found</title>
+      </Helmet>
       <div className="container">
-        <h1>
+        <h1 className="errorPage">
           Page not found <Link to="/summary/">Go Home</Link>
         </h1>
       </div>
-    </div>
+    </>
   );
 }
 

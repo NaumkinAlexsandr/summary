@@ -1,7 +1,6 @@
 import React from "react";
 import { Header } from "../header/Header";
 import { Projects } from "../projects/Projects";
-import { HeaderSecond } from "../header/HeaderSecond";
 
 function ProjectsEN() {
   return (

@@ -46,3 +46,17 @@ body {
     margin-left: 30px;
   }
 }
+
+// 404 Page
+.errorPage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10rem 0 0 0;
+
+  a {
+    margin-left: 10px;
+    text-decoration: none;
+  }
+}

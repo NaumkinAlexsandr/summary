@@ -9,7 +9,7 @@ function NofoundPage() {
       </Helmet>
       <div className="container">
         <h1 className="errorPage">
-          Page not found <Link to="/summary/">Go Home</Link>
+          Page not found <Link to="/summary">Go Home</Link>
         </h1>
       </div>
     </>

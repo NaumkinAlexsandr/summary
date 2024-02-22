@@ -11,7 +11,7 @@ function ProjectsUA() {
         className3="menu-nav"
         className4="menu-nav active-ua"
         className5="menu-nav"
-        to1="/summary/ua"
+        to1="/cv/ua"
         to2="/projects/ua"
         to3="/projects/en"
         to4="/projects/ua"
@@ -23,6 +23,10 @@ function ProjectsUA() {
         title5="RU"
         id1="summary-buttun"
         id2="projects-buttun"
+        id3="home-buttun"
+        className6="btn-home"
+        to6="/cv/ua"
+        title6="Головна"
       />
       <Projects
         infoOne="Макет адаптивного сайту доставки їжі із застосуванням Flexbox."

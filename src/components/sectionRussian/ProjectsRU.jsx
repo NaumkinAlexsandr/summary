@@ -11,7 +11,7 @@ function ProjectsRU() {
         className3="menu-nav"
         className4="menu-nav"
         className5="menu-nav active-ru"
-        to1="/summary/ru"
+        to1="/cv/ru"
         to2="/projects/ru"
         to3="/projects/en"
         to4="/projects/ua"
@@ -23,6 +23,10 @@ function ProjectsRU() {
         title5="RU"
         id1="summary-buttun"
         id2="projects-buttun"
+        id3="home-buttun"
+        className6="btn-home"
+        to6="/summary/ru"
+        title6="Главная"
       />
       <Projects
         infoOne="Макет адаптивного сайта доставки еды с применением Flexbox."

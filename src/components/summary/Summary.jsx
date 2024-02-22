@@ -1,13 +1,21 @@
 import React from "react";
 import "./summary.scss";
+import { Sotial } from "../personalInfo/Sotial";
 
-const Summary = ({ title, summary }) => {
+const Summary = ({ name, city, phone }) => {
   return (
     <div id="summary" className="container-fluid">
       <div className="row">
         <div className="col-sm-12">
-          <h3>{title}</h3>
-          <p>{summary}</p>
+          <h1>{name}</h1>
+          <h5>{city}</h5>
+          <h5>
+            {phone}
+            <a className="phoneNumber" href="tel:+380503901591">
+              +38 (050) 050 92 13
+            </a>
+          </h5>
+          <Sotial />
         </div>
       </div>
     </div>

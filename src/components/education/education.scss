@@ -20,20 +20,25 @@
   height: 50%;
 }
 
-.certificateBasic {
+.certificateBasic,
+.certificatePro,
+.certificateTS {
   height: 100%;
   width: 100%;
-  background-image: url(../../img/basic.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
+.certificateBasic {
+  background-image: url(../../img/basic.png);
+}
+
 .certificatePro {
-  height: 100%;
-  width: 100%;
   background-image: url(../../img/NaumkinPro.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+}
+
+.certificateTS {
+  background-image: url(../../img/typeScript.png);
 }
 
 .javaScript {
@@ -89,4 +94,16 @@
 
 .recommendation.ruPro {
   background-image: url(../../img/recProRu.png);
+}
+
+.recommendation.enTS {
+  background-image: url(../../img/recTSEn.png);
+}
+
+.recommendation.ruTS {
+  background-image: url(../../img/recTSRu.png);
+}
+
+.recommendation.uaTS {
+  background-image: url(../../img/recTSUa.png);
 }

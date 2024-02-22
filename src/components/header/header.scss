@@ -5,13 +5,14 @@
 
   .btn-title,
   .btn-summary,
-  .btn-projects {
-    width: 80px;
+  .btn-projects,
+  .btn-home {
+    width: 75px;
     height: 30px;
     padding: 3px 0 0 0;
     background-color: silver;
     border-color: gray;
-    margin: 10px 0 0 10px;
+    margin: 5px 5px 0 0;
   }
 
   .btn-language {
@@ -24,7 +25,8 @@
   }
 
   .btn-summary-dark,
-  .btn-projects-dark {
+  .btn-projects-dark,
+  .btn-home-dark {
     background-color: rgb(51, 51, 51);
     border: 1px solid rgb(104, 104, 104);
   }

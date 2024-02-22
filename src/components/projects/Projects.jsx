@@ -72,7 +72,7 @@ function Projects({
           className="card-img six"
           project="Education"
           tehnology="HTML, CSS, SCSS, Bootstrap, JavaScript, jQuery, Webpack"
-          href="https://naumkinalexsandr.github.io/education/html/html.html"
+          href="https://naumkinalexsandr.github.io/learning"
           info={infoSix}
         />
         <Cards

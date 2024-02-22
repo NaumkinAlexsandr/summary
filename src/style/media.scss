@@ -5,8 +5,8 @@
 
   .photoTwo {
     width: 100%;
-    height: 220px;
-    background-image: url(../img/photo.jpg);
+    height: auto;
+    background-image: url(../img/myPhoto.png);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -15,11 +15,12 @@
 @media screen and (max-width: 576px) {
   .photoOne {
     width: 100%;
-    height: 200px;
-    background-image: url(../img/photo.jpg);
+    height: 300px;
+    background-image: url(../img/myPhoto.png);
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 0 0 10px 10px;
+    margin: 10px 0px;
     display: flex;
   }
 

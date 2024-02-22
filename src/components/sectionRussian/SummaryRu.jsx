@@ -1,5 +1,4 @@
 import React from "react";
-import { PersonalInfo } from "../personalInfo/PersonalInfo";
 import { HardSkill } from "../hardSkill/HardSkill";
 import { Education } from "../education/Education";
 import { Experience } from "../experience/Experience";
@@ -17,11 +16,11 @@ function SummaryRu() {
         className3="menu-nav"
         className4="menu-nav"
         className5="menu-nav active-ru"
-        to1="/summary/ru"
+        to1="/cv/ru"
         to2="/projects/ru"
-        to3="/summary/"
-        to4="/summary/ua"
-        to5="/summary/ru"
+        to3="/cv/en"
+        to4="/cv/ua"
+        to5="/cv/ru"
         title1="Резюме"
         title2="Проекты"
         title3="EN"
@@ -29,16 +28,15 @@ function SummaryRu() {
         title5="RU"
         id1="summary-buttun"
         id2="projects-buttun"
-      />
-      <PersonalInfo
-        name="Наумкин Александр Николаевич"
-        title="Персональные данные:"
-        city="Город: Одесса, Украина"
-        phone="Телефон:"
+        id3="home-buttun"
+        className6="btn-home"
+        to6="/summary/ru"
+        title6="Главная"
       />
       <Summary
-        title="Резюме:"
-        summary="Привет! Меня зовут Александр. Я будущий разработчик JavaScript. Я изучал JavaScript в IT-школе Hillel. У меня есть знания HTML5, CSS3 и JavaScript. Также у меня есть опыт работы с технологиями Flexbox, Grid в ИТ-школе Hillel. Я хотел бы стать надежным членом команды ИТ-компании, где я смогу внести полезный и необходимый вклад в программирование."
+        name="Наумкин Александр Николаевич"
+        city="Город: Одесса, Украина"
+        phone="Телефон:"
       />
       <HardSkill
         objective="Карьерная цель"
@@ -99,6 +97,14 @@ function SummaryRu() {
         certificateSeven="CSS"
         titleSeven="Sololearn"
         classNameSeven="css"
+        eighth="2023 TypeScript курс в IT-школе Hillel"
+        certificateEighth="Сертификат"
+        titleEighth="Сертификат выпускника"
+        hrefEighth="https://certificate.ithillel.ua/view/71562104"
+        classNameEighth="certificateTS"
+        certificateNine="Рекомендация"
+        titleNine="Рекомендация"
+        classNameNine="recommendation ruTS"
       />
       <Experience
         experience="Профессиональный опыт:"

@@ -1,5 +1,4 @@
 import React from "react";
-import { PersonalInfo } from "../personalInfo/PersonalInfo";
 import { HardSkill } from "../hardSkill/HardSkill";
 import { Education } from "../education/Education";
 import { Experience } from "../experience/Experience";
@@ -18,28 +17,27 @@ function SummaryEn() {
         className3="menu-nav active-en "
         className4="menu-nav"
         className5="menu-nav"
-        to1="/summary/"
+        to1="/cv/en"
         to2="/projects/en"
-        to3="/summary/"
-        to4="/summary/ua"
-        to5="/summary/ru"
-        title1="Summary"
+        to3="/cv/en"
+        to4="/cv/ua"
+        to5="/cv/ru"
+        title1="CV"
         title2="Projects"
         title3="EN"
         title4="UA"
         title5="RU"
         id1="summary-buttun"
         id2="projects-buttun"
-      />
-      <PersonalInfo
-        name="Naumkin Alexander Nikolaevich"
-        title="Personal information:"
-        city="City: Odessa, Ukraine"
-        phone="Phone:"
+        id3="home-buttun"
+        className6="btn-home"
+        to6="/summary"
+        title6="Home"
       />
       <Summary
-        title="Summary:"
-        summary="Hello! My name is Alexsander. I'm a future JavaScript developer. I studied JavaScript at Hillel IT School. I have got knowledge of HTML5,  CSS3 &  JavaScript. Also I have experience with technology of Flexbox, Grid at Hillel IT School . I would like to become a reliable member of the IT company team, where I'll be able to make useful and needful contributions to programming."
+        name="Naumkin Alexander Nikolaevich"
+        city="City: Odessa, Ukraine"
+        phone="Phone:"
       />
       <HardSkill
         objective="Carrer objective"
@@ -101,6 +99,14 @@ function SummaryEn() {
         certificateSeven="CSS"
         titleSeven="Sololearn"
         classNameSeven="css"
+        eighth="2023 TypeScript course at Hillel IT-school"
+        certificateEighth="Certificate"
+        titleEighth="Graduate certificate"
+        hrefEighth="https://certificate.ithillel.ua/view/71562104"
+        classNameEighth="certificateTS"
+        certificateNine="Recommendation"
+        titleNine="Recommendation"
+        classNameNine="recommendation enTS"
       />
       <Experience
         experience="Professional experience:"

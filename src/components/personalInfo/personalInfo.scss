@@ -15,13 +15,14 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     position: relative;
+    margin: 0;
 
     .icon {
-      width: 45px;
-      height: 45px;
+      width: 55px;
+      height: 55px;
       border-radius: 50%;
       display: flex;
       justify-content: center;
@@ -37,9 +38,9 @@
     }
 
     a {
-      width: 45px;
-      height: 45px;
-      padding: 5px;
+      width: 55px;
+      height: 55px;
+      padding: 10px;
       color: #fff;
       border-radius: 50%;
       font-size: 30px;

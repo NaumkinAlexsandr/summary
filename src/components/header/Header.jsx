@@ -21,6 +21,10 @@ const Header = ({
   title5,
   id1,
   id2,
+  id3,
+  className6,
+  to6,
+  title6,
 }) => {
   const [bodyClassName, setBodyClassName] = useState("");
 
@@ -31,19 +35,23 @@ const Header = ({
   useEffect(() => {
     const summaryBtn = document.getElementById("summary-buttun");
     const projectsBtn = document.getElementById("projects-buttun");
+    const homeBtn = document.getElementById("home-buttun");
 
     if (bodyClassName === "body-dark") {
       summaryBtn.classList.add("btn-summary-dark");
       projectsBtn.classList.add("btn-projects-dark");
+      homeBtn.classList.add("btn-home-dark");
     } else {
       summaryBtn.classList.remove("btn-summary-dark");
       projectsBtn.classList.remove("btn-projects-dark");
+      homeBtn.classList.remove("btn-home-dark");
     }
   }, [bodyClassName]);
 
   return (
     <header id="header" className="container-fluid">
       <div>
+        <Btn id={id3} className={className6} to={to6} title={title6} />
         <Btn id={id1} className={className1} to={to1} title={title1} />
         <Btn id={id2} className={className2} to={to2} title={title2} />
       </div>

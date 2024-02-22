@@ -1,5 +1,4 @@
 import React from "react";
-import { PersonalInfo } from "../personalInfo/PersonalInfo";
 import { HardSkill } from "../hardSkill/HardSkill";
 import { Education } from "../education/Education";
 import { Experience } from "../experience/Experience";
@@ -17,11 +16,11 @@ function SummaryUA() {
         className3="menu-nav"
         className4="menu-nav active-ua"
         className5="menu-nav"
-        to1="/summary/ua"
+        to1="/cv/ua"
         to2="/projects/ua"
-        to3="/summary/"
-        to4="/summary/ua"
-        to5="/summary/ru"
+        to3="/cv/en"
+        to4="/cv/ua"
+        to5="/cv/ru"
         title1="Резюме"
         title2="Проекти"
         title3="EN"
@@ -29,16 +28,15 @@ function SummaryUA() {
         title5="RU"
         id1="summary-buttun"
         id2="projects-buttun"
-      />
-      <PersonalInfo
-        name="Наумкін Олександр Миколайович"
-        title="Особисті дані:"
-        city="Місто: Одеса, Україна"
-        phone="Телефон:"
+        id3="home-buttun"
+        className6="btn-home"
+        to6="/summary/ua"
+        title6="Головна"
       />
       <Summary
-        title="Резюме:"
-        summary="Привіт! Мене звуть Олександр. Я майбутній розробник JavaScript. Я вивчав JavaScript у IT School Hillel. Маю знання HTML5, CSS3 і JavaScript. Також маю досвід роботи з технологією Flexbox, Grid в IT School Hillel. Я хотів би стати надійним членом команди ІТ-компанії, де я зможу зробити корисний і потрібний внесок у програмування."
+        name="Наумкін Олександр Миколайович"
+        city="Місто: Одеса, Україна"
+        phone="Телефон:"
       />
       <HardSkill
         objective="Кар'єрна мета"
@@ -98,6 +96,14 @@ function SummaryUA() {
         certificateSeven="CSS"
         titleSeven="Sololearn"
         classNameSeven="css"
+        eighth="2023 TypeScript курс у IT-школі Hillel"
+        certificateEighth="Сертифікат"
+        titleEighth="Сертифікат випускника"
+        hrefEighth="https://certificate.ithillel.ua/view/71562104"
+        classNameEighth="certificateTS"
+        certificateNine="Рекомендація"
+        titleNine="Рекомендація"
+        classNameNine="recommendation uaTS"
       />
       <Experience
         experience="Професійний досвід:"

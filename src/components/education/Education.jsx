@@ -34,6 +34,14 @@ const Education = ({
   certificateSeven,
   titleSeven,
   classNameSeven,
+  eighth,
+  certificateEighth,
+  titleEighth,
+  hrefEighth,
+  classNameEighth,
+  certificateNine,
+  titleNine,
+  classNameNine,
 }) => {
   const [bodyClassName, setBodyClassName] = useState("");
 
@@ -88,6 +96,20 @@ const Education = ({
               certificate={certificateFour}
               title={titleFour}
               className={classNameFour}
+            />
+          </li>
+          <li>
+            <h6>{eighth}</h6>
+            <Example
+              certificate={certificateEighth}
+              title={titleEighth}
+              href={hrefEighth}
+              className={classNameEighth}
+            />
+            <Example
+              certificate={certificateNine}
+              title={titleNine}
+              className={classNameNine}
             />
           </li>
           <li>

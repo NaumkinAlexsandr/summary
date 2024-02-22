@@ -6,7 +6,7 @@ function PageSummaryEn() {
   return (
     <>
       <Helmet>
-        <title>Summary Naumkin A.N.</title>
+        <title>CV Naumkin A.N.</title>
       </Helmet>
       <SummaryEn />
     </>

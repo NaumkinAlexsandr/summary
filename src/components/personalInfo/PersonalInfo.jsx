@@ -22,7 +22,7 @@ const PersonalInfo = ({ name, title, contacts, phone }) => {
           <h3>{contacts}</h3>
           <h5>
             {phone}
-            <a className="phoneNumber" href="tel:+380503901591">
+            <a className="phoneNumber" href="tel:+380500509213">
               +38 (050) 050 92 13
             </a>
           </h5>

@@ -5,7 +5,7 @@ const PersonInfo = ({ title, date, city, phone }) => {
       <h4>{date}</h4>
       <h4>{city}</h4>
       <div class="phone">
-        <a class="phone_number" href="tel:+380503901591">
+        <a class="phone_number" href="tel:+380500509213">
           +38 (050) 050 92 13
         </a>
       </div>

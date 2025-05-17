@@ -11,7 +11,7 @@ const Summary = ({ name, city, phone }) => {
           <h5>{city}</h5>
           <h5>
             {phone}
-            <a className="phoneNumber" href="tel:+380503901591">
+            <a className="phoneNumber" href="tel:+380500509213">
               +38 (050) 050 92 13
             </a>
           </h5>

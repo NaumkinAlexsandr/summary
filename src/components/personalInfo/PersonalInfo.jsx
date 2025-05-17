@@ -13,7 +13,7 @@ const PersonalInfo = ({ name, title, contacts, phone }) => {
       <div className="row">
         <div className="col-sm-6 photoOne"></div>
         <div className="col-sm-6">
-          <h4>{title}</h4>
+          <h5>{title}</h5>
         </div>
         <div className="col-sm-6 photoTwo"></div>
       </div>

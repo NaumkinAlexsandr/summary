@@ -1,7 +1,6 @@
 import React from "react";
 import { Header } from "../header/Header";
 import { PersonalInfo } from "../personalInfo/PersonalInfo";
-import { Summary } from "../summary/Summary";
 
 function HomeEN() {
   return (
@@ -31,8 +30,32 @@ function HomeEN() {
       />
       <PersonalInfo
         name="Naumkin Alexander Nikolaevich"
-        title="Hello! My name is Alexander. I studied JavaScript at Hillel IT school. I have deep knowledge of HTML5, CSS3, SASS, JavaScript, TypeScript, React, Bootstrap, Material UI, etc. I also have experience working with Flexbox and Grid technologies obtained at the Hillel IT school. My skills allow me to create high-quality web applications that meet modern requirements and standards. I have experience working with various frameworks and libraries, which allows me to effectively solve complex problems and create intuitive user interfaces. Ready to contribute to your project and help your team achieve its goals.
-        "
+        title={
+          <div>
+            <p>Hello! </p>
+            <p>My name is Alexander. </p>
+            <p>I studied JavaScript at Hillel IT school. </p>
+            <p>
+              I have deep knowledge of HTML5, CSS3, SASS, JavaScript,
+              TypeScript, React, Bootstrap, Material UI, etc. I also have
+              experience working with Flexbox and Grid technologies obtained at
+              the Hillel IT school.
+            </p>
+            <p>
+              My skills allow me to create high-quality web applications that
+              meet modern requirements and standards.
+            </p>
+            <p>
+              I have experience working with various frameworks and libraries,
+              which allows me to effectively solve complex problems and create
+              intuitive user interfaces.
+            </p>
+            <p>
+              Ready to contribute to your project and help your team achieve its
+              goals.
+            </p>
+          </div>
+        }
         contacts="Contacts:"
         phone="Phone:"
       />

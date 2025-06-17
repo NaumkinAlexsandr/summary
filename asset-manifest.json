@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/summary/static/css/main.fffd0b86.css",
-    "main.js": "/summary/static/js/main.9c173ac3.js",
+    "main.css": "/summary/static/css/main.eb51ea64.css",
+    "main.js": "/summary/static/js/main.848cb4f3.js",
     "static/media/myPhoto.png": "/summary/static/media/myPhoto.67ddfbb349131475fefd.png",
     "static/media/odessa.png": "/summary/static/media/odessa.b5d3fdd2f2bf3e8dc92b.png",
     "static/media/weather.png": "/summary/static/media/weather.1726b956cad53fe94cfa.png",
     "static/media/witcher.png": "/summary/static/media/witcher.a2d1f59d0d8ae7359be8.png",
-    "static/media/typeScript.png": "/summary/static/media/typeScript.cadb2d88e8247528daef.png",
+    "static/media/hillelTS.png": "/summary/static/media/hillelTS.cadb2d88e8247528daef.png",
+    "static/media/regionAPP.png": "/summary/static/media/regionAPP.4afef00056f56b3232a2.png",
     "static/media/magicalForest.png": "/summary/static/media/magicalForest.b9d3bc6c1bdc68565ddd.png",
     "static/media/JavaScript.png": "/summary/static/media/JavaScript.4613f216b6f447772751.png",
     "static/media/html.png": "/summary/static/media/html.a4ee0a28fbe0a4160e00.png",
@@ -29,16 +30,16 @@
     "static/media/mobileApp.png": "/summary/static/media/mobileApp.07a80ef18ae66516e483.png",
     "static/media/recBasicEn.png": "/summary/static/media/recBasicEn.1d21807fcbccb45cc867.png",
     "static/media/recProEn.png": "/summary/static/media/recProEn.72c1ecdece199ad5a2ec.png",
-    "static/media/NaumkinPro.png": "/summary/static/media/NaumkinPro.8780d829831b73fd258d.png",
-    "static/media/basic.png": "/summary/static/media/basic.ea9df6e4843ebc59e0ee.png",
+    "static/media/hillelPro.png": "/summary/static/media/hillelPro.8780d829831b73fd258d.png",
+    "static/media/hillelBasic.png": "/summary/static/media/hillelBasic.ea9df6e4843ebc59e0ee.png",
     "static/media/login.png": "/summary/static/media/login.0040ccdae23df141e55a.png",
     "static/media/todoList.png": "/summary/static/media/todoList.aa75dcf748b22664dacf.png",
     "index.html": "/summary/index.html",
-    "main.fffd0b86.css.map": "/summary/static/css/main.fffd0b86.css.map",
-    "main.9c173ac3.js.map": "/summary/static/js/main.9c173ac3.js.map"
+    "main.eb51ea64.css.map": "/summary/static/css/main.eb51ea64.css.map",
+    "main.848cb4f3.js.map": "/summary/static/js/main.848cb4f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.fffd0b86.css",
-    "static/js/main.9c173ac3.js"
+    "static/css/main.eb51ea64.css",
+    "static/js/main.848cb4f3.js"
   ]
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./summary.scss";
-import { Sotial } from "../personalInfo/Sotial";
+import { Sotial } from "../../core/Sotial";
 
 const Summary = ({ name, city, phone }) => {
   return (

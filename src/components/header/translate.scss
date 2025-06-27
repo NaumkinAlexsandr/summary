@@ -93,19 +93,19 @@
   }
 
   .active-en {
-    background-image: url("../../img/united-kingdom.png");
+    background-image: url("../../img/headerIcon/united-kingdom.png");
     background-size: cover;
     font-size: 0px;
   }
 
   .active-ua {
-    background-image: url("../../img/ukraine.png");
+    background-image: url("../../img/headerIcon/ukraine.png");
     background-size: cover;
     font-size: 0px;
   }
 
   .active-ru {
-    background-image: url("../../img/russia.png");
+    background-image: url("../../img/headerIcon/russia.png");
     background-size: cover;
     font-size: 0px;
   }
@@ -129,13 +129,13 @@
 
   #theme.light-theme {
     background-color: inherit;
-    background-image: url("../../img/sun.png");
+    background-image: url("../../img/headerIcon/sun.png");
     background-size: cover;
   }
 
   #theme.dark-theme {
     background-color: inherit;
-    background-image: url("../../img/night.png");
+    background-image: url("../../img/headerIcon/night.png");
     background-size: cover;
   }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { Sotial } from "./Sotial";
+import { Sotial } from "../../core/Sotial";
 import "./personalInfo.scss";
 
 const PersonalInfo = ({ name, title, contacts, phone }) => {
@@ -13,7 +13,7 @@ const PersonalInfo = ({ name, title, contacts, phone }) => {
       <div className="row">
         <div className="col-sm-6 photoOne"></div>
         <div className="col-sm-6">
-          <h5>{title}</h5>
+          <>{title}</>
         </div>
         <div className="col-sm-6 photoTwo"></div>
       </div>

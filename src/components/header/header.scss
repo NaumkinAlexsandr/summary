@@ -16,8 +16,12 @@
     width: 75px;
     height: 30px;
     padding: 3px 0 0 0;
-    background-color: silver;
-    border-color: gray;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: inherit;
+    border-color: inherit;
+    border: none;
+    color: gray;
     margin: 5px 5px 0 0;
   }
 
@@ -33,14 +37,13 @@
   .btn-summary-dark,
   .btn-projects-dark,
   .btn-home-dark {
-    background-color: rgb(51, 51, 51);
-    border: 1px solid rgb(104, 104, 104);
+    background-color: inherit;
+    border: none;
   }
 
   .active {
-    background-color: rgb(104, 104, 104);
     border: none;
-    color: #fff;
+    color: #2196f3;
   }
 
   .header-menu {

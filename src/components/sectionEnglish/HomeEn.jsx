@@ -31,30 +31,30 @@ function HomeEN() {
       <PersonalInfo
         name="Naumkin Alexander Nikolaevich"
         title={
-          <div>
-            <p>Hello! </p>
-            <p>My name is Alexander. </p>
-            <p>I studied JavaScript at Hillel IT school. </p>
-            <p>
+          <>
+            <h5>Hello! </h5>
+            <h5>My name is Alexander. </h5>
+            <h5>I studied JavaScript at Hillel IT school. </h5>
+            <h5>
               I have deep knowledge of HTML5, CSS3, SASS, JavaScript,
               TypeScript, React, Bootstrap, Material UI, etc. I also have
               experience working with Flexbox and Grid technologies obtained at
               the Hillel IT school.
-            </p>
-            <p>
+            </h5>
+            <h5>
               My skills allow me to create high-quality web applications that
               meet modern requirements and standards.
-            </p>
-            <p>
+            </h5>
+            <h5>
               I have experience working with various frameworks and libraries,
               which allows me to effectively solve complex problems and create
               intuitive user interfaces.
-            </p>
-            <p>
+            </h5>
+            <h5>
               Ready to contribute to your project and help your team achieve its
               goals.
-            </p>
-          </div>
+            </h5>
+          </>
         }
         contacts="Contacts:"
         phone="Phone:"

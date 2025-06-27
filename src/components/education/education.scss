@@ -22,49 +22,10 @@
 
 .certificateBasic,
 .certificatePro,
-.certificateTS {
-  height: 100%;
-  width: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.certificateBasic {
-  background-image: url(../../img/basic.png);
-}
-
-.certificatePro {
-  background-image: url(../../img/NaumkinPro.png);
-}
-
-.certificateTS {
-  background-image: url(../../img/typeScript.png);
-}
-
-.javaScript {
-  height: 100%;
-  width: 100%;
-  background-image: url(../../img/JavaScript.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.html {
-  height: 100%;
-  width: 100%;
-  background-image: url(../../img/html.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.css {
-  height: 100%;
-  width: 100%;
-  background-image: url(../../img/css.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
+.certificateTS,
+.javaScript,
+.html,
+.css,
 .recommendation {
   height: 100%;
   width: 100%;
@@ -72,38 +33,62 @@
   background-repeat: no-repeat;
 }
 
+.certificateBasic {
+  background-image: url(../../img/certificate/hillelBasic.png);
+}
+
+.certificatePro {
+  background-image: url(../../img/certificate/hillelPro.png);
+}
+
+.certificateTS {
+  background-image: url(../../img/certificate/hillelTS.png);
+}
+
+.javaScript {
+  background-image: url(../../img/certificate/JavaScript.png);
+}
+
+.html {
+  background-image: url(../../img/certificate/html.png);
+}
+
+.css {
+  background-image: url(../../img/certificate/css.png);
+}
+
 .recommendation.enBasic {
-  background-image: url(../../img/recBasicEn.png);
+  background-image: url(../../img/recommendation/recBasicEn.png);
 }
 
 .recommendation.uaBasic {
-  background-image: url(../../img/recBasicUa.png);
+  background-image: url(../../img/recommendation/recBasicUa.png);
 }
 
 .recommendation.ruBasic {
-  background-image: url(../../img/recBasicRu.png);
+  background-image: url(../../img/recommendation/recBasicRu.png);
 }
 
 .recommendation.enPro {
-  background-image: url(../../img/recProEn.png);
+  background-image: url(../../img/recommendation/recProEn.png);
 }
 
 .recommendation.uaPro {
-  background-image: url(../../img/recProUa.png);
+  background-image: url(../../img/recommendation/recProUa.png);
 }
 
 .recommendation.ruPro {
-  background-image: url(../../img/recProRu.png);
+  background-image: url(../../img/recommendation/recProRu.png);
 }
 
 .recommendation.enTS {
-  background-image: url(../../img/recTSEn.png);
+  background-image: url(../../img/recommendation/recTSEn.png);
 }
 
 .recommendation.ruTS {
-  background-image: url(../../img/recTSRu.png);
+  background-image: url(../../img/recommendation/recTSRu.png);
 }
 
 .recommendation.uaTS {
-  background-image: url(../../img/recTSUa.png);
+  background-image: url(../../img/recommendation/recTSUa.png);
 }

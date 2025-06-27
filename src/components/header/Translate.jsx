@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { LinkContainer } from "react-router-bootstrap";
-import TranslateIcon from "../../img/translate.png";
+import TranslateIcon from "../../img/headerIcon/translate.png";
 import "./translate.scss";
 export default function Translate({
   className3,

@@ -4,10 +4,11 @@ import { FaTelegram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiGmail } from "@react-icons/all-files/si/SiGmail";
+import "./sotial.scss";
 
 const Sotial = () => {
   return (
-    <Container className="conteinerOne">
+    <Container className="conteinerSotial">
       <div className="icon">
         <a
           target="_blanck"

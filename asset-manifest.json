@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/summary/static/css/main.eb51ea64.css",
-    "main.js": "/summary/static/js/main.848cb4f3.js",
+    "main.css": "/summary/static/css/main.f9dae3b0.css",
+    "main.js": "/summary/static/js/main.63de344e.js",
     "static/media/myPhoto.png": "/summary/static/media/myPhoto.67ddfbb349131475fefd.png",
     "static/media/odessa.png": "/summary/static/media/odessa.b5d3fdd2f2bf3e8dc92b.png",
-    "static/media/weather.png": "/summary/static/media/weather.1726b956cad53fe94cfa.png",
     "static/media/witcher.png": "/summary/static/media/witcher.a2d1f59d0d8ae7359be8.png",
+    "static/media/weather.png": "/summary/static/media/weather.d3e31e4bd0073312f3ad.png",
     "static/media/hillelTS.png": "/summary/static/media/hillelTS.cadb2d88e8247528daef.png",
     "static/media/regionAPP.png": "/summary/static/media/regionAPP.4afef00056f56b3232a2.png",
     "static/media/magicalForest.png": "/summary/static/media/magicalForest.b9d3bc6c1bdc68565ddd.png",
@@ -17,7 +17,6 @@
     "static/media/recBasicRu.png": "/summary/static/media/recBasicRu.87c8acfb4b0fb9eafc33.png",
     "static/media/education.png": "/summary/static/media/education.b547e7c3d0c887cfed39.png",
     "static/media/themedark.jpg": "/summary/static/media/themedark.7394f15545d11958de6e.jpg",
-    "static/media/vincode.png": "/summary/static/media/vincode.140f7e2f373acfc93e80.png",
     "static/media/recTSEn.png": "/summary/static/media/recTSEn.8d9ad980c95b8c1e0b1c.png",
     "static/media/recProRu.png": "/summary/static/media/recProRu.e2b0088160e4fd515f2a.png",
     "static/media/recProUa.png": "/summary/static/media/recProUa.123347164732bdbf6f1c.png",
@@ -31,15 +30,16 @@
     "static/media/recBasicEn.png": "/summary/static/media/recBasicEn.1d21807fcbccb45cc867.png",
     "static/media/recProEn.png": "/summary/static/media/recProEn.72c1ecdece199ad5a2ec.png",
     "static/media/hillelPro.png": "/summary/static/media/hillelPro.8780d829831b73fd258d.png",
+    "static/media/vincode.png": "/summary/static/media/vincode.78b377124ac9e0f01ef9.png",
     "static/media/hillelBasic.png": "/summary/static/media/hillelBasic.ea9df6e4843ebc59e0ee.png",
     "static/media/login.png": "/summary/static/media/login.0040ccdae23df141e55a.png",
     "static/media/todoList.png": "/summary/static/media/todoList.aa75dcf748b22664dacf.png",
     "index.html": "/summary/index.html",
-    "main.eb51ea64.css.map": "/summary/static/css/main.eb51ea64.css.map",
-    "main.848cb4f3.js.map": "/summary/static/js/main.848cb4f3.js.map"
+    "main.f9dae3b0.css.map": "/summary/static/css/main.f9dae3b0.css.map",
+    "main.63de344e.js.map": "/summary/static/js/main.63de344e.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb51ea64.css",
-    "static/js/main.848cb4f3.js"
+    "static/css/main.f9dae3b0.css",
+    "static/js/main.63de344e.js"
   ]
 }

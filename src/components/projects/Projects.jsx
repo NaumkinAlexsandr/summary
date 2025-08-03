@@ -16,6 +16,7 @@ function Projects({
   infoTwelve,
   infoThirteen,
   infoFourteen,
+  infoFifteen,
   projectTitleOne,
   projectTitleTwo,
   projectTitleThree,
@@ -30,6 +31,7 @@ function Projects({
   projectTitleTwelve,
   projectTitleThirteen,
   projectTitleFourteen,
+  projectFifteen,
 }) {
   return (
     <>
@@ -110,6 +112,13 @@ function Projects({
           tehnology="HTML, SCSS, TypeScript, React"
           href="https://naumkinalexsandr.github.io/weather/"
           info={infoEleven}
+        />
+        <Cards
+          className="card-img fifteen"
+          project={projectFifteen}
+          tehnology="React Native, TypeScript"
+          // href="https://naumkinalexsandr.github.io/weather/"
+          info={infoFifteen}
         />
         <Cards
           className="card-img twelve"

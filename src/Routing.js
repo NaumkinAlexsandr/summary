@@ -13,11 +13,11 @@ import { PageProjectsRu } from "./pages/PageProjectsRu";
 
 function Routing() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/summary">
       <Routes>
-        <Route path="/summary" element={<PageHomeEn />} />
-        <Route path="/summary/ua" element={<PageHomeUa />} />
-        <Route path="/summary/ru" element={<PageHomeRu />} />
+        <Route path="/" element={<PageHomeEn />} />
+        <Route path="/home/ua" element={<PageHomeUa />} />
+        <Route path="/home/ru" element={<PageHomeRu />} />
         <Route path="/cv/en" element={<PageSummaryEn />} />
         <Route path="/cv/ua" element={<PageSummaryUa />} />
         <Route path="/cv/ru" element={<PageSummaryRu />} />

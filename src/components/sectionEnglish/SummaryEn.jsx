@@ -6,7 +6,7 @@ import { SoftSkill } from "../softSkill/SoftSkill";
 import { OtherInfo } from "../otherInfo/OtherInfo";
 import { Summary } from "../summary/Summary";
 import { Header } from "../header/Header";
-import "../../components/header/translate.scss";
+import "components/header/translate.scss";
 
 function SummaryEn() {
   return (
@@ -43,28 +43,22 @@ function SummaryEn() {
         objective="Carrer objective"
         look="Looking for a full time job as a Junior Front-end Developer."
         hardSkill="Hard skills:"
-        first="HTML5, CSS3, SASS"
+        first="HTML5, CSS3, SASS (SCSS), Tailwind CSS, Flexbox, CSS Grid"
         second="JavaScript, TypeScript "
-        third="React, React-Router, Redux"
+        third="React, Next.js, React-Router, Redux"
         fourth="Bootstrap, React-Bootstrap, Material UI, Materialize"
         fifth="Git, GitHub"
         sixth="Webpack"
         seven="Figma"
-        eight="Knowledge of using various tags, attributes and styles to create a variety of components and layouts. 
-        Knowledge of the SASS preprocessor to simplify styling and style reuse. 
-        Using variables, mixins, nesting, and other SASS features for more efficient styling."
-        nine="Basic understanding of the JavaScript programming language and knowledge of TypeScript syntax. 
-        Develop interactive elements and functionality on web pages using JavaScript and TypeScript."
-        ten="Experience with the React library for creating UI components. 
-        Using React-Router to navigate between pages in a single page application. 
-        Knowledge of the Redux architectural pattern to manage application state and facilitate development."
-        eleven="Using frameworks and libraries to create responsive and beautiful user interfaces."
-        twelve="Experience with Git version control for tracking changes and collaborating on projects. 
-        Ability to work with branches, commits, merges, conflict resolution, and other basic Git commands."
-        thirteen="Experience with the Webpack build tool for building and optimizing front-end projects. 
-        Ability to set up loaders and plugins, work with modules and customize project builds."
-        fourteen="Knowledge of the Figma graphic tool for working with layouts and design. 
-        Ability to export images and extract color and size values ​​of elements."
+        eight="Proficient in semantic HTML5 and modern CSS3. Experience creating responsive and cross-browser layouts using Flexbox and CSS Grid. Confident application of the SASS preprocessor (variables, mixins, nesting) and Tailwind CSS framework for rapid and modular styling."
+        nine="Solid understanding of JavaScript (ES6+) and OOP principles. Experience developing interactive elements and business logic using TypeScript to enhance code reliability and maintainability."
+        ten="Practical experience with the React library (functional components, hooks). Usage of React-Router for navigation. Knowledge of the Redux architectural pattern (or Redux Toolkit) for effective application state management. Basic understanding of Next.js capabilities (routing, static generation)."
+        eleven="Experience in accelerated UI development using popular component libraries: Bootstrap, React-Bootstrap, Material UI (MUI), and Materialize to build modern and responsive interfaces."
+        twelve="Experience using the Git version control system and GitHub (or GitLab/Bitbucket) platform. Ability to work with branching, perform conflict resolution, and follow team development workflows."
+        thirteen="Basic experience with Webpack for front-end project building and optimization. Understanding of configuring loaders, plugins, and modules to improve build performance."
+        fourteen="Practical skills in working with Figma (or Sketch/Zeplin) for layout and design analysis. Ability to correctly extract styles, sizes, colors, and export assets for accurate interface implementation."
+        fifteen="React Native (Expo)"
+        sixteen="Experience in developing cross-platform mobile applications using the React Native framework."
       />
       <Education
         education="Education:"

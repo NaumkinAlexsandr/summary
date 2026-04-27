@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Btn } from "../../core/button/Btn.jsx";
+import { Btn } from "core/button/Btn.jsx";
 import Translate from "./Translate.jsx";
 import "./header.scss";
 
@@ -27,7 +27,7 @@ const Header = ({
   projectsId,
 }) => {
   return (
-    <header id="header" className="container-fluid">
+    <header id="header" className="container">
       <div>
         <Btn
           id={homeId}

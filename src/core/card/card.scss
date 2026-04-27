@@ -1,14 +1,23 @@
 .cards {
   width: 100%;
   margin-bottom: 20px;
-  padding: 20px 20px 0 20px;
+  padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   gap: 10px;
 
+  .title {
+    width: 100%;
+
+    h3 {
+      margin: 0;
+    }
+  }
+
   .card-project {
-    max-width: 320px;
+    margin-bottom: 10px;
+    max-width: 300px;
     width: 100%;
     min-height: 400px;
     height: auto;
@@ -22,6 +31,20 @@
       width: 100%;
       height: 300px;
       border-radius: 10px 10px 0 0;
+      overflow: hidden; // обязательно!
+      position: relative;
+
+      .img {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.4s ease; // плавное увеличение
+      }
+    }
+
+    &:hover .card-img .img {
+      transform: scale(1.1);
     }
 
     h3 {
@@ -49,79 +72,60 @@
       top: 0;
     }
 
-    .one {
+    .webImg {
+      background-size: cover;
+    }
+
+    .webOne {
       background-image: url(../../img/projects/foodDelivery.png);
-      background-size: cover;
     }
 
-    .two {
+    .webTwo {
       background-image: url(../../img/projects/login.png);
-      background-size: cover;
     }
 
-    .three {
+    .webThree {
       background-image: url(../../img/projects/hlegal.png);
-      background-size: cover;
     }
 
-    .four {
-      background-image: url(../../img/projects/odessa.png);
-      background-size: cover;
+    .webFour {
+      background-image: url(../../img/projects/odesa.png);
     }
 
-    .five {
+    .webFive {
       background-image: url(../../img/projects/hoodie.png);
-      background-size: cover;
     }
 
-    .six {
+    .webSix {
       background-image: url(../../img/projects/witcher.png);
-      background-size: cover;
     }
 
-    .seven {
+    .webSeven {
       background-image: url(../../img/projects/magicalForest.png);
-      background-size: cover;
     }
 
-    .eight {
+    .webEight {
       background-image: url(../../img/projects/todoList.png);
-      background-size: cover;
     }
 
-    .nine {
+    .webNine {
       background-image: url(../../img/projects/mobileApp.png);
-      background-size: cover;
     }
 
-    .ten {
+    .webTen {
       background-image: url(../../img/projects/education.png);
-      background-size: cover;
     }
 
-    .eleven {
+    .webEleven {
       background-image: url(../../img/projects/weather.png);
-      background-size: cover;
     }
 
-    .twelve {
+    .webTwelve {
       background-image: url(../../img/projects/vincode.png);
-      background-size: cover;
     }
 
-    .thirteen {
+    .webThirteen {
       background-image: url(../../img/projects/lightShop.png);
-      background-size: cover;
-    }
-
-    .fourteen {
-      background-image: url(../../img/projects/regionAPP.png);
-      background-size: cover;
-    }
-
-    .fifteen {
-      background-image: url(../../img/projects/weatherAPP.png);
-      background-size: cover;
     }
   }
 

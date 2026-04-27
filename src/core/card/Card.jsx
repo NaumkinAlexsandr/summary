@@ -1,5 +1,5 @@
-import React, { useContext } from "react"; // Добавлен useContext
-import { ThemeContext } from "../../contexts/ThemeContext";
+import React, { useContext } from "react";
+import { ThemeContext } from "contexts/ThemeContext";
 import "./card.scss";
 
 const Cards = ({ className, project, tehnology, href, info }) => {
@@ -11,7 +11,10 @@ const Cards = ({ className, project, tehnology, href, info }) => {
 
   return (
     <div className={cardClassName}>
-      <div className={className}></div>
+      <div className="card-img">
+        <div className={`img ${className}`}></div>
+      </div>
+
       <h3>{project}</h3>
       <h4>{tehnology}</h4>
       <p>{info}</p>

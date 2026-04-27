@@ -4,11 +4,13 @@
   }
 
   .photoTwo {
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 300px;
     background-image: url(../img/myPhoto.png);
     background-size: contain;
     background-repeat: no-repeat;
+    float: right;
+    margin: 0 0 15px 25px;
     display: flex;
   }
 }

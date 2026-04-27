@@ -4,12 +4,12 @@ import { HomeUA } from "../components/sectionUkrainian/HomeUA";
 
 function PageHomeUa() {
   return (
-    <>
+    <div className="container">
       <Helmet>
         <title>Головна Наумкіна О.М.</title>
       </Helmet>
       <HomeUA />
-    </>
+    </div>
   );
 }
 export { PageHomeUa };

@@ -7,7 +7,21 @@
   position: fixed;
   bottom: 15px;
   right: 15px;
-  opacity: 0.4;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease,
+    visibility 0.4s,
+    background-color 0.3s;
+
+  &.visible {
+    opacity: 0.4;
+    visibility: visible;
+    transform: translateY(0);
+  }
 
   &:hover {
     opacity: 0.8;

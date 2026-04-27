@@ -1,0 +1,99 @@
+.card-project {
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.appImg {
+  background-size: contain !important;
+  background-repeat: no-repeat;
+}
+
+.appOne {
+  background-image: url(../../img/projects/regions/regions.png);
+}
+
+.appTwo {
+  background-image: url(../../img/projects/weather/weather.png);
+}
+
+.appThree {
+  background-image: url(../../img/projects/runes/runes.png);
+}
+
+.bg-dark {
+  background-color: #1a1a1a !important;
+  border: 1px solid #333;
+}
+
+.img-large {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project-slider {
+  //   background: #000;
+  width: 100%;
+  padding-bottom: 50px;
+
+  .slider-wrapper {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .slider-main-img {
+    max-height: 100%;
+    width: auto;
+    display: block;
+    object-fit: contain;
+  }
+
+  // Стили точек
+  .carousel-indicators {
+    margin-bottom: 0;
+
+    button {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: silver;
+      opacity: 0.2;
+
+      &.active {
+        opacity: 1;
+      }
+    }
+  }
+
+  // Стили кнопок
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 50%;
+    width: 3rem;
+    height: 3rem;
+    filter: invert(50%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(90%)
+      contrast(90%);
+    transition: filter 0.3s ease;
+  }
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.05);
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      filter: invert(90%);
+    }
+  }
+}
+
+.bg-dark {
+  background-color: #121212 !important;
+}
+
+.project-description {
+  white-space: pre-line;
+}

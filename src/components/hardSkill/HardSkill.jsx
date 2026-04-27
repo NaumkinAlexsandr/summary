@@ -20,6 +20,8 @@ const HardSkill = ({
   twelve,
   thirteen,
   fourteen,
+  fifteen,
+  sixteen,
 }) => {
   return (
     <div id="hardSkill" className="container-fluid">
@@ -40,6 +42,10 @@ const HardSkill = ({
           <li>
             <h6>{third}</h6>
             <p>{ten}</p>
+          </li>
+          <li>
+            <h6>{fifteen}</h6>
+            <p>{sixteen}</p>
           </li>
           <li>
             <h6>{fourth}</h6>

@@ -5,13 +5,13 @@ import BackTop from "../core/BackTop";
 
 function PageProjectsRu() {
   return (
-    <>
+    <div className="container">
       <Helmet>
         <title>Проекты Наумкинa А.Н.</title>
       </Helmet>
       <ProjectsRU />
       <BackTop />
-    </>
+    </div>
   );
 }
 export { PageProjectsRu };

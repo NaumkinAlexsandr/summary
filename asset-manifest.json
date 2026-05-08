@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/summary/static/css/main.c5a5aeca.css",
-    "main.js": "/summary/static/js/main.dc75e7e4.js",
+    "main.js": "/summary/static/js/main.dd4dc6bd.js",
     "static/media/myPhoto.png": "/summary/static/media/myPhoto.67ddfbb349131475fefd.png",
     "static/media/runes.png": "/summary/static/media/runes.44b1a6233b3e7cb69c56.png",
     "static/media/weather.png": "/summary/static/media/weather.d3e31e4bd0073312f3ad.png",
@@ -40,9 +40,9 @@
     "static/media/weather03.jpg": "/summary/static/media/weather03.d3235a6ba214d2c34e25.jpg",
     "static/media/weather09.jpg": "/summary/static/media/weather09.2c70b270b002d0a01566.jpg",
     "static/media/hlegal.png": "/summary/static/media/hlegal.e26618dadee69ec5c096.png",
+    "static/media/runes11.jpg": "/summary/static/media/runes11.6d7a16cadaaad0ff81be.jpg",
     "static/media/weather04.jpg": "/summary/static/media/weather04.6cecb40258aa2e837eb8.jpg",
     "static/media/recBasicUa.png": "/summary/static/media/recBasicUa.31ce0e7aff6131de8d58.png",
-    "static/media/runes11.jpg": "/summary/static/media/runes11.ead8ad5bbdfe9125f9e6.jpg",
     "static/media/regions03.jpg": "/summary/static/media/regions03.a0a5f826ea7415cf5447.jpg",
     "static/media/themelight.png": "/summary/static/media/themelight.99aa5866bcc75085fbe8.png",
     "static/media/regions02.jpg": "/summary/static/media/regions02.e7abe9492b9255ddc894.jpg",
@@ -65,10 +65,10 @@
     "static/media/todoList.png": "/summary/static/media/todoList.aa75dcf748b22664dacf.png",
     "index.html": "/summary/index.html",
     "main.c5a5aeca.css.map": "/summary/static/css/main.c5a5aeca.css.map",
-    "main.dc75e7e4.js.map": "/summary/static/js/main.dc75e7e4.js.map"
+    "main.dd4dc6bd.js.map": "/summary/static/js/main.dd4dc6bd.js.map"
   },
   "entrypoints": [
     "static/css/main.c5a5aeca.css",
-    "static/js/main.dc75e7e4.js"
+    "static/js/main.dd4dc6bd.js"
   ]
 }
